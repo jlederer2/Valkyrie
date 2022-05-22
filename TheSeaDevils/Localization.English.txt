@@ -12,11 +12,11 @@ UILoseGameText.uitext,No sign of the investigators was ever found.
 quest.authors,"A scenario for 2 to 5 investigators\n\nBy Jim Lederer\njlederer2@hotmail.com\n\nRequires Horrific Journeys"
 UISplashScreenContinue.button1,Continue
 EventHotelIntroT9.text,"You leave your rooms and make your way down the hallway and through the lobby, to the hotel foyer.\n\nPlace your investigators as shown.\n\nInvestigators start with zero {clue} tokens.\n\nThere is an old man in a chair here, dressed in business clothes.  Place the white Person token as shown."
-TokenSearchShelfT12.text,There are various surgical tools and other items on this shelf.
+TokenSearchShelfT12.text,There are various surgical tools and bottles of medicine on this shelf.
 TokenSearchShelfT12.button1,{action} Search
 EventSearchShelfT12.text,"Take the {c:QItemSedativesT12} common item.\nRemove this Search token."
 EventSearchShelfT12.button1,Continue
-TokenSearchTableT12.text,There are a few items piled atop this table.
+TokenSearchTableT12.text,There are a few items piled atop this table.  It looks like someone was digging for medical supplies in a hurry.
 UIWinScreenText.uitext,"The bridge compartment bobs on the surface of the sea...\n\nYou climb the ladder and open the hatch overhead.  The morning sunlight is blinding.  The fresh sea breeze never smelled so good.\n\nYou wonder at the nightmares you have seen.\n\nPerhaps you will return, to recover the rest of the treasure.\n\nThen again, perhaps not.\n\nThe investigation is successful."
 UIEndGameContinue.uitext,End Game
 TokenSearchTableT12.button1,{action} Search
@@ -28,15 +28,15 @@ quest.synopsys,Get to the bottom of a mystery in a small coastal town
 EventPlaceTileHotelFoyerT9.button1,Continue
 EventPlaceSightLobbyT9.button1,Continue
 EventPlaceTileHotelFoyerT9.text,"Place the {c:TileHotelFoyerT9} tile.  This is the foyer of your hotel at 607 Water Street.\n\nThe tiled floor looks like it hasn't been washed for some time.  The air smells musty.  Two doors lead to offices which are off-limits to guests.  On the opposite wall, several paintings depict ships at sea.  Place Painting tokens as shown."
-EventPlacePaperAndExploreT9.text,"A newspaper lies on a small table.  Place a Search token as indicated.\n\nOver by the door, a battered suitcase leans against the wall.  Place a Search token near the door as indicated.\n\nYou can leave the hotel via the door.  Place an Explore token as indicated."
+EventPlacePaperAndExploreT9.text,"A newspaper lies on a small table.  Place a Search token as indicated.\n\nOver by the door, a battered suitcase leans against the wall.  Place a Search token near the door as indicated.\n\nYou can leave the hotel via the door.  Place an Explore token as indicated.\n\nThere are some special rules in this module.  Remember you can use the Log button to re-read them if you forget the details."
 EventPlacePaperAndExploreT9.button1,Continue
 TokenSearchPainting1T9.text,The painting shows a ship which has run aground.
-TokenSearchPainting1T9.button1,{Action] Examine painting
+TokenSearchPainting1T9.button1,{action} Examine painting
 TokenSearchPainting2T9.text,This painting depicts a ship in a storm.
 TokenPainting2T9.button1,Continue
-TokenSearchNewspaperT9.text,You look over the newspaper.  It is devoted to information about local events and the fishing industry.  If you wish to examine the paper more closely, test {observation}(2).
-TokenSearchNewspaperT9.button1,Pass
-TokenSearchNewspaperT9.button2,Fail
+TokenSearchNewspaperT9.text,You glance at the newspaper.  It is devoted to information about local events and the fishing industry.
+TokenSearchNewspaperT9.button1,{action} Read the newspaper
+EventReadPaperT9.text, Test {observation}(2).
 EventNewspaperPassT9.text,"You notice an article several pages in, which notes that local fisherman Bobby Tork is still missing, after failing to return from a fishing trip a week ago.\n\nRemove this Search token and gain one {clue}."
 EventNewspaperPassT9.button1,Continue
 EventNewspaperFailT9.text,You don't see anything particularly interesting.
@@ -46,8 +46,8 @@ TokenExploreExitFoyerT9.button1,{Action} Exit Foyer
 EventPlaceMarket.text,"The strong odor of fish and the sea assails you through the open door.\n\nRemove this Explore token.\n\nPlace tile {c:TileMarketT6}.\n\nThis local market holds a few small run-down-looking stalls.  During the day, they are probably used to sell fish and locally-crafted products.  This late at night, they are deserted.\n\nThere is an exit to the north.  Place Sight token as indicated.\n\nThere are a few implements laying on a table.  Place a Search token as indicated.\n\nYou may move 1 space into the Market."
 EventPlaceMarket.button1,Continue
 TokenSearchSuitcaseT9.text,An old suitcase leans against the wall.
-TokenSearchSuitcaseT9.button1,{Action} Examine Luggage
-TokenSearchPainting2T9.button1,{Action} Examine Painting
+TokenSearchSuitcaseT9.button1,{action} Examine Luggage
+TokenSearchPainting2T9.button1,{action} Examine Painting
 EventSearchPainting1T9.text,"In this scene, a lighthouse stands on a cliff overlooking the sea.  There doesn't seem to be any light coming from the lighthouse.  The skies are red and the air is filled with clouds and fog.  A large triple-masted whaler is fetched-up nearby on some rocks, with one mast collapsed, and the crew scrambling to lower a lifeboat.\n\nRemove this token.  Take one facedown Horror ({will} negates) and gain one {clue}."
 EventSearchPainting1T9.button1,Continue
 EventSearchPainting2T9.button1,Continue
@@ -55,7 +55,7 @@ EventSearchLuggageT9.button1,Continue
 EventSearchPainting2T9.text,"In this scene, a fishing vessel flounders in a raging storm.  Upon closer inspection, you can make-out two of the crew who have been washed overboard, struggling in the waves.  The remainder of the crew is on deck, using harpoons to hold-off a strange-looking humanoid figure.\n\nRemove this Search token.  Take one facedown Horror ({will} negates) and gain one {clue}."
 EventSearchLuggageT9.text,"This suitcase is empty, and judging from the amount of dust on it, appears to have been abandoned.  May as well take it along; maybe you can use it to carry some souvenirs.\n\nGain the {c:QItemSturdyLuggageT9} common item and remove this Search token."
 TokenSearchTableT6.text,There are several small boxes and things on this table.
-TokenSearchTableT6.button1,{Action} Search the table
+TokenSearchTableT6.button1,{action} Search the table
 EventSearchTableT6.text,You search the table.  Test {observation](1).
 EventSearchTableT6.button1,Pass
 EventSearchTableT6.button2,Fail
@@ -63,7 +63,7 @@ EventSearchTableFailT6.text,You don't find anything except an old piece of smell
 EventSearchTableFailT6.button1,Continue
 EventSearchTablePassT6.text,You find an old rusty knife.  Take the {c:QItemKnifeT6} common item and discard this Search token.
 EventSearchTablePassT6.button1,Continue
-TokenOldManT9.button1,{Action} Ask him about himself
+TokenOldManT9.button1,{action} Ask him about himself
 EventAskManAboutHimselfPassT9.text,|||The man stands-up slowly, smiles, and shakes your hand.  "Oh, I'm just a salesman.  Fred Wein's the name.  I sell supplies to hotels and restaurants.  Not having much luck in KingsPort, I'm afraid.  This town is dead.\n\nWell, I've got to be on my way."\n\nGain one {clue].  Remove this Person token.|||
 EventAskManAboutHimselfT9.text,Test {influence}(1)
 EventAskManAboutHimselfT9.button1,Pass
@@ -78,22 +78,22 @@ TokenSightDock2T1.text,"The dock continues to the west.\n\nRemove this token.\n\
 TokenSightDock2T1.button1,Continue
 TokenSightDock1T1.text,|||The dock continues to the east.  Remove this Sight token.\nPlace {c:TileDock1T4} tile as indicated.\n\nThere is a boat moored here.  It is beaten-down but still looks seaworthy.  On the prow of the boat is painted "My Old Lady".\nPlace {c:TileBoatT5} as indicated.\n\nThere is a man on the boat, coiling some rope.  Place the blue Person token as indicated. \n\nThere is a door to the south.  A sign over the door reads "Neil's Curiosity Shop".\n\nPlace Explore token as indicated.|||
 TokenSightDock1T1.button1,Continue
-TokenExploreShackT1.text,The door to this shack appears locked.
-TokenExploreShackT1.button1,{Action} Break into the shack
-TokenSearchBarrelsT1.button1,{Action} Search
+TokenExploreShackT1.text,|||This run-down looking shack has a rusty sign, which says "Sam's Snack Shack".  It's closed for the night.\n\nYou try the door but it's locked.|||
+TokenExploreShackT1.button1,{action} Break into the shack
+TokenSearchBarrelsT1.button1,{action} Search
 EventSearchBarrelsT1Pass.button1,Continue
 EventSearchBarrelsT1.text,You look to see if there is anything useful here.  Test {observation}(1).
 EventSearchBarrelsT1.button1,Pass
 EventSearchBarrelsT1.button2,Fail
-TokenExploreRopeAndAnchorT3.button1,{Action} Enter
+TokenExploreRopeAndAnchorT3.button1,{action} Enter
 TokenSearchBarrelsT1.text,There are some items on these barrels.
 EventSearchBarrelsT1Fail.text,You don't find anything interesting.  Remove this Search token.
 EventSearchBarrelsT1Pass.text,You find a set of {c:QItemBrassKnucklesT1}.  Gain this common item and remove this Search token.
 EventSearchBarrelsT1Fail.button1,Continue
 TokenExploreNeilsCuriosityShopT4.text,This is the door to the shop.  The shop appears to be open.
-TokenExploreNeilsCuriosityShopT4.button1,{Action} Enter the shop
+TokenExploreNeilsCuriosityShopT4.button1,{action} Enter the shop
 EventExploreRopeAndAnchorT8.text,"You open the door.  Remove this Explore token.\n\nYou see a tavern, filled with smoke and the odor of stale tobacco.  There is an old pool table in the center of the room.\n\nPlace the {c:TileRopeAndAnchorT8} tile as indicated.\nPlace a Door token as indicated.\nPlace a Wall token as indicated."
-TokenSearchRowboatT1.button1,{Action} Search the boat
+TokenSearchRowboatT1.button1,{action} Search the boat
 EventSearchBoatT1.text,You try to have a look inside the rowboat without falling into the water.  Test {agility} and record the number of successes you achieve.
 TokenSearchRowboatT1.text,There is a rowboat under a weatherbeaten tarp here.
 EventSearchBoatT1.button1,Continue
@@ -107,17 +107,16 @@ EventBreakIntoShackT1.button1,Continue
 EventBreakIntoShackT1.button2,Fail
 EventExploreShackPassT1.text,"You hit the door of the shack and it slams open as you careen inside.  Remove this Explore token and place your investigator in the shack.\n\nYou search around quickly.  There isn't much useful here - it looks like this shack is used for serving food during the day.\nYou manage to locate a {c:QItemHolyCrossT1} attached to a set of rosary beads - gain this item."
 EventExploreShackPassT1.button1,Continue
-EventExploreShackFailT1.text,You put your shoulder to the door, but just bounce off.  Unfortunately, this seems to be one of the few items in this town that are in good repair.
+EventExploreShackFailT1.text,"You put your shoulder to the door, but just bounce off.  Unfortunately, this seems to be one of the few items in this town that are in good repair.\n\nYou worry that the noise you are making might attract some unwanted attention."
 EventExploreShackFailT1.button1,Continue
-TokenJerimiahDeckT5.button1,{Action} Ready to leave (All investigators on-board)
-TokenJerimiahDeckT5.button2,{Action} Ask if the boat is for hire
-TokenJerimiahDeckT5.button3,{Action} Ask the man what he's doing
-EventAskJerimiahWhatHesDoingT10.text,|||The old man squints at you sideways, then shouts "What does it look like I'm a'doin, ye land-lubbers!  Now stop botherin' me and get off me boat!"|||
-EventAskJerimiahWhatHesDoingT10.button1,Continue
+TokenJerimiahDeckT5.button1,{action} Ready to leave (All investigators on-board)
+TokenJerimiahDeckT5.button2,{action} Ask if the boat is for hire
+TokenJerimiahDeckT5.button3,{action} Ask the man what he's doing
+EventAskJerimiahWhatHesDoingT5.button1,Continue
 TokenSearchRuinedBoathouseT2.text,"You start rummaging around in the ruined boathouse, but as you lift an old flat piece of planking you are startled to discover an old bum, who wakes-up, just as startled as you are!\n\nPlace the green Person token as indicated, and remove this Search token."
 TokenSearchRuinedBoathouseT2.button1,Continue
 TokenDrunkBumT2.text,An old homeless man.
-TokenDrunkBumT2.button1,{Action} Talk to the old bum
+TokenDrunkBumT2.button1,{action} Talk to the old bum
 EventTalkOldBumT2.text,|||"Whaaa?  What you want?  I ain't done nuthin'!"\n\nThe old man is dressed in filthy clothes, and smells terrible, worse than the sea and the dead fish which litter the beach.\n\nYou try to calm the old man down and ask him what he's talking about.  Test {influence}(2).|||
 EventTalkOldBumT2.button1,Pass
 EventTalkOldBumT2.button2,Fail
@@ -133,7 +132,7 @@ TokenSearchNeilsShopT7.text,You rummage through the shelves.  Test {observation}
 TokenSearchNeilsShopT7.button1,Continue
 TokenSearchNeilsShopT7.button2,Fail
 EventSearchNeilsFailT7.button1,Continue
-EventSearchNeilsPassT7.text,"You come across a rather unique-looking sextant.  It looks very old and is covered in strange runes.\n\nRemove this Search token.\n\nYou take it back over to Neil and try to reach an agreement on price.  Test {influence}(1)."
+EventSearchNeilsPassT7.text,|||You come across a rather unique-looking sextant.  It looks very old and is covered in strange carvings.\n\nRemove this Search token.\n\nYou take it back over to Neil.\n\n"Ah, yes, Ol' Tork brought that back from one of his dives out by the Point.  I gave him a good deal, paid-off the debt he owed me.  It's quite an unusual piece."\n\nYou try to reach an agreement on price.  Test {influence}(1).|||
 EventSearchNeilsFailT7.text,You haven't found anything worthwhile yet.
 EventSearchNeilsPassT7.button1,Pass
 EventSearchNeilsPassT7.button2,Fail
@@ -142,9 +141,9 @@ EventNegotiateWithNeilFailT7.button1,Continue
 EventNegotiateWithNeilPassT7.text,|||"Alright, it's a deal!", says Neil, as you pass over a wad of money.  You just hope this thing is worth it.  Gain the {c:QItemMysticSextantT7} item.|||
 EventNegotiateWithNeilPassT7.button1,Continue
 EventExploreRopeAndAnchorT8.button1,Continue
-TokenBartenderT8.text,|||You step up to the bar.  The bartender is an attractive redhead.  "Hi, I'm Sheila.  What can I get you?", she asks.  You order a drink.|||
-TokenBartenderT8.button1,{Action} Ask about the missing fisherman
-EventAskBartenderAboutFishermanT8.text,Oh, you heard about old Mr. Tork, did you?  Yes, people 'round here are mighty worried about him.  He hasn't been seen for a week now.  Old McGinty might know more, he's the man with the grey beard sitting over there on the couch.
+TokenBartenderT8.text,|||The bartender is an attractive redhead.  "What can I get you?", she asks.  You order a drink.|||
+TokenBartenderT8.button1,{Action} Ask what's going on in town
+EventAskBartenderAboutFishermanT8.text,Well, everyone is worried about old Mr. Tork.  He hasn't been seen for a week now.  Old McGinty might know more, he's the man with the grey beard sitting over there on the couch.
 EventAskBartenderAboutFishermanT8.button1,Continue
 TokenGreyManT8.text,This old man with a grey beard is chatting and drinking with his friend wearing the purple scarf.
 TokenGreyManT8.button1,{Action} Ask about the missing fisherman
@@ -160,12 +159,12 @@ EventMcGintyMystral.button1,Ask where old Jeremiah can be found
 EventMcGintyJeremiahT8.text,|||"Well, he'd be where he usually is, a-workin on his boat, docked right up near the snack shack on the pier, of course."\n\nGain two {clue} tokens.|||
 EventMcGintyJeremiahT8.button1,Continue
 TokenPurpleManT8.text,This old man wears a purple scarf along with the usual seaman's overalls.
-TokenPurpleManT8.button1,{Action} Ask about the missing fisherman
-EventPurpleManAskT8.text,I don't know nothin' about 'Ol Tork.  Ask McGinty.
+TokenPurpleManT8.button1,{Action} Inquire about the lost fisherman
+EventPurpleManAskT8.text,|||"I don't know nothin' about 'Ol Tork, 'cept he owes me money - and I'm not the only one!"\n\nHe shares a glance with his bearded friend.|||
 EventPurpleManAskT8.button1,Continue
 TokenYellowManT8.text,This old man wears a yellow rain-slicker over his overalls.
-TokenYellowManT8.button1,{Action} Ask about the missing fisherman
-EventYellowManAskT8.text,|||"Yeah, Ol' Tork's been gone about a week.", he says.\n\n"I told him to stay away from the Mystral.  There be things out there in the sea, things that don't want that ship found.  But he wouldn't listen.\n\nWell, I'm off then, gotta check my nets."\n\nRemove the yellow Person token.\n\nGain one {clue}.|||
+TokenYellowManT8.button1,{Action} Ask about Tork
+EventYellowManAskT8.text,|||"Ol' Tork's been gone about a week.", he says.\n\n"I told him to stay away from the Mystral.  There be things out there in the sea, things that don't want that ship found.  But he wouldn't listen.\n\nWell, I'm off then, gotta get some shut-eye."  He gets-up and leaves the tavern.\n\nRemove the yellow Person token.\n\nGain one {clue}.|||
 EventYellowManAskT8.button1,Continue
 EventHireBoatT5.text,|||Well, I like the cut 'o your jib!" the old man exclaims.  "I be Jeremiah Olafsson, and this here is the Old Lady".\n\nHe makes a sweeping gesture with his arm toward the boat.\n\n"And what does ye have in mind?|||
 EventHireBoatT5.button1,Tell him you want to search for the Mystral
@@ -300,7 +299,7 @@ EventEnterSickBayWithoutPumpsT12.text,Water pours into the sickbay from the carg
 EventEnterSickBayWithoutPumpsT12.button1,Continue
 TokenExploreGalleyT12.text,This door is closed.
 TokenExploreGalleyT12.button1,{action] Open door
-EventExploreGalleyT12.text,"You open the door, which leads to what appears to be the Galley.  Place the {c:TileGalleyT14} tile as indicated.  Remove this Explore token.\n\nPlace a side table token on the far wall as indicated.  There are some interesting items on that table.  Place a Search token as indicated.\n\nA normal door leads to the next room.  Place Explore token as indicated.\n\nThe door to the Kitchen area is closed.  Place Explore token as indicated.\n\nThere is a bloody sailor's corpse lying on the floor.  Place the yellow Person token as indicated.\n\nA harpoon is mounted on the wall.  Place Interact token as indicated.\n\nYou may enter the Galley."
+EventExploreGalleyT12.text,"You open the door, which leads to what appears to be the Galley.  Place the {c:TileGalleyT14} tile as indicated.  Remove this Explore token.\n\nPlace a side table token on the far wall as indicated.  There are some interesting items on that table.  Place a Search token as indicated.\n\nA door to the left leads to the next room.  Place Explore token as indicated.\n\nThe door to the Kitchen area is closed.  Place Explore token as indicated.\n\nThere is a bloody sailor's corpse lying on the floor.  Place the yellow Person token as indicated.\n\nA harpoon is mounted on the wall.  Place Interact token as indicated.\n\nYou may enter the Galley."
 EventExploreGalleyT12.button1,Continue
 TokenExploreKitchenT14.button1,{action} Open Kitchen door
 EventExploreKitchenT14.text,"You open the door to the Kitchen.  Remove this Explore token.\n\nYou can search the drawers.  Place Search tokens as indicated.\n\nThere is a rift here.  Place Rift token as indicated.\n\nYou may move into the kitchen."
@@ -308,7 +307,7 @@ TokenExploreKitchenT14.text,This door leads to the Kitchen area.
 EventExploreKitchenT14.button1,Continue
 TokenSearchDrawersT14.text,You can search the drawers.
 TokenSearchDrawersT14.button1,{action} Search
-TokenYellowSailorT14.text,You can search the body.  Test {observation}(2).
+TokenYellowSailorT14.text,This sailor's body is covered with claw marks.  You search the body.  Test {observation}(2).
 TokenYellowSailorT14.button1,Pass
 TokenYellowSailorT14.button2,Fail
 EventWaterEntersGalleyFromSickBayT14.button1,Continue
@@ -321,9 +320,9 @@ EventWaterEntersGalleyFromSickBayT14.text,Water pours into the Galley from the S
 EventSearchDrawersT14.button1,Continue
 EventSearchCabinetT14.button1,Continue
 TokenSearchCabinetT14.text,You can search this cabinet.
-EventSearchCabinetT14.text,You find a {c:QItemExtinguisherT14}.  Remove this Search token.
+EventSearchCabinetT14.text,You pull out a {c:QItemExtinguisherT14}.  Remove this Search token.
 SpawnDimensionalShamblerT14.text,A monster steps through the rift into the Kitchen.  Spawn a Dimensional Shambler as indicated.
-EventSearchDrawersT14.text,You search the drawers and find a {c:QItemMeatCleaverT14}.  Remove this Search token.
+EventSearchDrawersT14.text,You look through the cutlery and settle on a {c:QItemMeatCleaverT14}.  Remove this Search token.
 SpawnDimensionalShamblerT14.button1,Continue
 TokenExploreCrewQtrsT14.text,This door is closed.
 TokenExploreCrewQtrsT14.button1,{action} Open door
@@ -361,7 +360,7 @@ TokenSearchChartTableT15.text,The chart depicts KingsPort bay.  You can take a c
 TokenSearchChartTableT15.button1,{action} Examine chart
 EventSearchChartT13.text,"The chart is quite old.  The parchment is dry and brittle.  The text is in a language you've never seen before.\n\nVarious lines on the chart are marked in red.  They seem to converge at a point near where you estimate to be the location of the Mystral's wreck.\n\nGain the {c:QItemMapofLeyLinesT15} item and a {clue} token.  Remove this Search token."
 EventSearchChartT13.button1,Continue
-TokenRemoveHarpoonT14.text,This is a wicked-looking harpoon.  It is bolted to the wall.  A player with a Wrench can remove the harpoon.
+TokenRemoveHarpoonT14.text,This is a wicked-looking harpoon, with intricate carvings on its shaft.  It is bolted to the wall.  A player with a Wrench can remove the harpoon.
 EventRemoveHarpoonT15.text,You remove the bolts securing the harpoon.  Gain the {c:QItemHarpoonT15} item.  Remove this interact token.
 EventRemoveHarpoonT15.button1,Continue
 TokenSearchBookshelvesT15.text,There are many books on the shelves, you can search through them to see if there is anything interesting.
@@ -394,8 +393,8 @@ EventExploreBridgeT16.text,"This hatch opens onto the bridge.  There is some eme
 SpawnHuntingHorrorT16.text,A creature flys through the rift into the room.  Spawn a Hunting Horror as indicated.
 EventExploreBridgeT16.button1,Continue
 TokenBridgeControlsT16.button1,{action} Examine controls
-EventExamineBridgeControlsT16.text,"You examine the controls.  They appear to provide the ability to disengage the bridge from the rest of the submersible.\n\nReplace this Search token with an Interact token."
-TokenBridgeControlsT16.text,There are some complex controls here.
+EventExamineBridgeControlsT16.text,"You examine the controls.  Besides engine and ballast controls, there appears to be a way to disengage the bridge from the rest of the submersible.\n\nReplace this Search token with an Interact token."
+TokenBridgeControlsT16.text,There are some complex controls here.  You can examine them to try to figure out what they do.
 EventExamineBridgeControlsT16.button1,Continue
 TokenActivateEscapePodT16.text,If all investigators are in this space, you can try to puzzle-out the sequence to activate the controls using {observation}.
 TokenActivateEscapePodT16.button1,{action} Attempt to activate controls
@@ -414,10 +413,10 @@ EventHatchFailT16.text,You can't budge it.
 EventHatchFailT16.button1,Continue
 EventHatchPassT16.text,You are unable to lift the hatch.  There is too much water pressure above you.  Remove this Interact token.
 EventHatchPassT16.button1,Continue
-SpawnFormlessSpawnT10.text,"From the rear of the ship, a horrendous noise signals the arrival of a terrible creature from the void.  Another rift appears, and through it crawls an immense monstrosity.  Spawn a Formless Spawn as indicated.\n\nNote:  Even if it does not reach an investigator with its first move action, the Formless Spawn never moves twice in the same turn."
+SpawnFormlessSpawnT10.text,"From the rear of the ship, a horrendous noise signals the arrival of a terrible creature from the void.  Another rift appears, and through it crawls an immense monstrosity.  Spawn a Formless Spawn as indicated.\n\nNote:  The Formless Spawn is not an aquatic or phasing monster, thus it can move only one space per move action in flooded spaces."
 SpawnFormlessSpawnT10.button1,Continue
-TokenSearchSideTableT14.text,There is a collection of trinkets on the table, including some doubloons, an antique brush, and a wooden tube.  Inside the tube you find a scroll.  Gain the {c:QItemStormSpellT14}.  Remove this Search token.
-TokenSearchSideTableT14.button1,Continue
+TokenSearchSideTableT14.text,You can search the trinkets on this side table
+TokenSearchSideTableT14.button1,{action} Search the trinkets
 TokenExploreRopeAndAnchorT3.text,|||The old wooden sign hanging above this door says "Rope and Anchor".  You can hear the noise of men conversing inside.|||
 Spawn2ndDeepOneT5.text,A second creature climbs over the gunwale.  Spawn another Deep One as indicated.
 Spawn2ndDeepOneT5.button1,Continue
@@ -461,3 +460,10 @@ TokenBridgePressureDoorOpenedT16.text,You can close the watertight door.
 TokenRemoveHarpoonT14.button1,{action} Remove harpoon (requires Wrench)
 EventSoakedT8.text,|||"Great night for a swim, eh?", he smirks.|||
 EventSoakedT8.button1,Continue
+EventReadPaperT9.button1,Pass
+EventReadPaperT9.button2,Fail
+EventAskJerimiahWhatHesDoingT5.text,|||The old man squints at you sideways, then shouts "What does it look like I'm a'doin, ye land-lubbers!  Now stop botherin' me and get off me boat!"|||
+TokenJeremiahWheelhouseT5.text,Jeremiah gazes out to sea, a far-off expression in his eyes.
+TokenJeremiahWheelhouseT5.button1,Continue
+EventSearchTrinketsT14.text,There is a collection of trinkets on the table, including some doubloons, an antique brush, and a wooden tube.  Inside the tube you find a scroll.  Gain the {c:QItemStormSpellT14}.  Remove this Search token.
+EventSearchTrinketsT14.button1,Continue
