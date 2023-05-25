@@ -1,0 +1,1000 @@
+.,French
+quest.name,Les diables de la mer
+quest.description,Lors de votre convalescence et d'un repos bien mérité, vous vous retrouvez mêlé à une affaire de disparition étrange dans un petit village côtier.\n\nUn scénario pour 2 à 5 investigateurs\n\nVous aurez besoin de l'extension Effroyables Excursions
+UISplashScreenText.uitext,Votre dernière rencontre dans le forêt d'Arkham vous a affectés aussi bien physiquement que mentalement. Mais heureusement tout ça est désormais derrière vous.\nAprès avoir conduit pendant des heures sous un ciel menaçant sur les routes chaotiques de campagne, vous arrivez à votre destination. Kingsport, un lieu calme et isolé. Vous allez enfin pouvoir profiter d'un repos bien mérité.\nVous prenez vos quartier dans un petit hôtel sur Water Street. Une fois installé, vous décidez de faire un petit tour sur le front de mer et pourquoi pas prendre un dernier verre dans un Pub local... cela pourrait vous aidez à calmer vos nerfs et aussi vous aidez à trouver le sommeil.
+EventIntro.button1,Continuer
+UISplashScreenContinue.uitext,Continuer
+EventPlaceSightLobbyT9.text,Le couloir mène au hall de l'hôtel. Vous pouvez observer les peintures pittoresques qui ornent les murs de la pièce de plus près.\n\nPlacez un <color=Cyan>pion Vue</color> ainsi que les <color=Cyan>pions Fouille</color> comme indiqué.
+TokenSightLobbyT9.button1,Continuer
+EventHotelIntroT9.button1,Continuer
+TokenSightLobbyT9.text,Dans cette direction vous vous dirigez vers le hall de l'hôtel. Vous venez d'en sortir, vous n'avez pas forcement besoin de revenir sur vos pas.\n\nRetirez le <color=Cyan>pion Vue</color>.
+UILoseGameText.uitext,Aucun signe n'a été trouvé.
+quest.authors,Auteur Jim Lederer\njlederer2@hotmail.com\nTraduction Française facrax
+UISplashScreenContinue.button1,Continuer
+EventHotelIntroT9.text,Vous quittez vos chambres et avancez dans le couloir qui vous mènent au hall de l'hôtel.\nPlacez vos Investigateurs comme indiqué.\nDemarrez sans aucun pion <color=Green>{clue}</color>.\n\nUn homme aussi vieux que ses habits de commercial est assis sur une chaise.\nPlacez le <color=Cyan>pion Personnage</color> Blanc comme indiqué.
+TokenSearchShelfT12.text,Il y a divers instruments chirurgicaux et flacons de médicaments sur cette étagère.
+TokenSearchShelfT12.button1,{action} Rechercher 
+EventSearchShelfT12.text,Prenez l'objet Commun {c:QItemSedativesT12}.\nRetirez le <color=Cyan>pion Recherche</color>.
+EventSearchShelfT12.button1,Continuer
+TokenSearchTableT12.text,Il y a quelques objets empilés sur la table. On dirait que quelqu'un cherchait du\nmatériel médicale à la hâte.
+UIWinScreenText.uitext,Le compartiment du pont flotte à la surface de la mer...\n\nvous montez à l'échelle pour ouvrir la trappe au-dessus de votre tête. Le soleil du matin est aveuglant et la brise fraîche de la mer n'a jamais\nété aussi agréable.\n\nVous êtes toujours sur le coup des cauchemars que vous avez vécu.\n\nL'enquête est un succès.\n\nPeut-être reviendrez-vous un jour pour récupérer le reste du trésor...\nOu pas.
+UIEndGameContinue.uitext,Fin du Jeu
+TokenSearchTableT12.button1,{action} Rechercher
+EventGiveBandagesT12.text,Gagnez l'objet Commun {c:QItemBandagesT12}.\n\nRetirez le <color=Cyan>pion Recherche</color>.
+EventGiveBandagesT12.button1,Continuer
+EventInvestEliminatedPressed.button1,Continuer
+quest.authors_short,Jim Lederer
+quest.synopsys,Percez le mystère d'une petite ville côtière et le fond de l'océan
+EventPlaceTileHotelFoyerT9.button1,Continuer
+EventPlaceSightLobbyT9.button1,Continuer
+EventPlaceTileHotelFoyerT9.text,Vous vous retrouvez dans le hall de votre hôtel au 607, rue Water Street.\nPlacez la tuile {c:TileHotelFoyerT9}.\n\nLe sol carrelé semble n'avoir pas été lavé depuis bien longtemps et il flotte dans l'air une odeur de moisi. Deux portes mènent à des bureaux qui sont interdits aux clients. Sur le mur opposé, plusieurs tableaux représentent des navires en mer.\n\nPlacez les <color=Cyan>pions Peinture</color> comme indiqué.
+EventPlacePaperAndExploreT9.text,Un journal est posé sur une petite table et à coté de la porte,\nune valise toute cabossée est appuyée contre le mur.\nPlacez les <color=Cyan>pions Fouille</color> comme indiqué.\n\nVous pouvez quitter l'hôtel par la porte.\nPlacez un <color=Cyan>pion Exploration</color> comme indiqué.\n\nN'oubliez pas que vous pouvez consulter le journal à tout moment depuis le menu.
+EventPlacePaperAndExploreT9.button1,Continuer
+TokenSearchPainting1T9.text,Le tableau montre un navire échoué.
+TokenSearchPainting1T9.button1,{action} Examiner la peinture
+TokenSearchPainting2T9.text,Ce tableau représente un navire dans une tempête.
+TokenPainting2T9.button1,Continuer
+TokenSearchNewspaperT9.text,Vous jetez un coup d'œil au journal. Il est consacré essentiellement aux événements locaux et à l'industrie de la pêche.
+TokenSearchNewspaperT9.button1,{action} Lire le journal
+EventReadPaperT9.text,Testez {observation}(2).
+EventNewspaperPassT9.text,Vous êtes interpellé par un article de plusieurs pages consacrer à un pêcheur local, Bobby Tork, toujours porté disparu depuis sa sortie en mer il y a plus d'une semaine.\n\nRetirez le <color=Cyan>pion Recherche</color> et obtenez un <color=Green>{clue}</color>.
+EventNewspaperPassT9.button1,Continuer
+EventNewspaperFailT9.text,Vous ne voyez rien de particulièrement intéressant.
+EventNewspaperFailT9.button1,Continuer
+TokenExploreExitFoyerT9.text,C'est la sortie de la pièce.
+TokenExploreExitFoyerT9.button1,{action} Sortir de la pièce
+EventPlaceMarket.text,Une fois la porte ouverte une forte odeur de poisson vous agresse.\nRetirez le <color=Cyan>pion Exploration</color> et placez la tuile {c:TileMarketT6}.\n\nCe marché local abrite quelques étals délabrés. Pendant la journée, ils sont probablement utilisés pour vendre du poisson ou des produits locaux. Mais à cette heure tardive de la nuit, tout est désert. Une légère brise siffle légerement.\nIl y a une sortie vers le Nord.\nPlacez le <color=Cyan>pion Vue</color> comme indiqué.\n\nIl y a quelques bric-à-brac posés sur une table.\nPlacez un <color=Cyan>pion Fouille</color> comme indiqué.\n\nVous pouvez vous déplacer d'une case dans le Marché.
+EventPlaceMarket.button1,Continuer
+TokenSearchSuitcaseT9.text,Une vieille valise est appuyée contre le mur.
+TokenSearchSuitcaseT9.button1,{action} Examiner les bagages
+TokenSearchPainting2T9.button1,{action} Examiner la peinture
+EventSearchPainting1T9.text,La scène représente un phare se dressant sur une falaise surplombant la mer. Il ne semble pas y avoir de lumière provenant du phare. Le ciel est rouge et l'air est rempli de nuages et de brouillard. Un grand baleinier à trois mâts dont l'un est effondré se dirige vers les rochers à proximité. On peut voir l'équipage se précipiter pour descendre un canot de sauvetage.\n\nRetirez ce <color=Cyan>pion</color>. Prenez 1 <color=Teal>Horreur</color> face cachée ({will} annule) et gagnez un <color=Green>{clue}</color>.
+EventSearchPainting1T9.button1,Continuer
+EventSearchPainting2T9.button1,Continuer
+EventSearchLuggageT9.button1,Continuer
+EventSearchPainting2T9.text,Dans cette scène, un bateau de pêche affronte une violente tempête. En y regardant de plus près, vous pouvez distinguer deux membres de l'équipage emportés par-dessus bord, luttant dans les vagues. Le reste de l'équipage est sur le pont, utilisant des harpons pour affronter une étrange créature marine.\n\nRetirez ce <color=Cyan>pion Recherche</color>.\nPrenez 1 <color=Teal>Horreur</color> face cachée ({will} annule) et gagnez un <color=Green>{clue}</color>.
+EventSearchLuggageT9.text,Cette valise est vide et à en juger par la quantité de poussière qu'elle a, elle semble avoir été abandonnée depuis longtemps. Autant la prendre, une fois nettoyé vous pourrez peut-être l'utiliser pour ramener des souvenirs.\n\nObtenez l'objet Commun {c:QItemSturdyLuggageT9} et supprimez le <color=Cyan>pion Recherche</color>.
+TokenSearchTableT6.text,Il y a plusieurs petites boîtes et divers choses sur cette table.
+TokenSearchTableT6.button1,{action} Fouiller la table
+EventSearchTableT6.text,Vous fouillez la table. Testez {observation}(1).
+EventSearchTableT6.button1,Réussite
+EventSearchTableT6.button2,Échec
+EventSearchTableFailT6.text,Vous ne trouvez rien d'autre qu'un vieux morceau de poisson pourri.
+EventSearchTableFailT6.button1,Continuer
+EventSearchTablePassT6.text,Vous trouvez un vieux couteau rouillé. Prenez l'objet Commun {c:QItemKnifeT6}\net défaussez le <color=Cyan>pion Recherche</color>.
+EventSearchTablePassT6.button1,Continuer
+TokenOldManT9.button1,{action} Interrogez-le
+EventAskManAboutHimselfPassT9.text,L'homme se lève lentement et vous serre la main avec un sourir.\n<i>Oh, je ne suis qu'un vendeur de passage. Mon nom est Fred Wein. Je vends des fournitures aux hôtels et restaurants mais j'ai bien peur de ne pas faire de bonne affaire par ici. KingsPort est vraiment une ville morte.\nEh bien je vous laisse car je dois me remettre en route.</i>\n\nObtenez un <color=Green>{clue}</color>. Supprimez ce <color=Cyan>pion Personnage</color>.
+EventAskManAboutHimselfT9.text,Testez {influence}(1)
+EventAskManAboutHimselfT9.button1,Réussite
+EventAskManAboutHimselfT9.button2,Échec
+EventAskManAboutHimselfPassT9.button1,Continuer
+EventAskManAboutHimselfFailT9.text,L'homme vous regarde, secoue la tête, puis regarde à nouveau le sol.
+EventAskManAboutHimselfFailT9.button1,Continuer
+TokenOldManT9.text,Un vieil homme assis sur une chaise, regarde le sol.
+TokenSightPierT6.text,Ce passage mène vers le front de mer. C'est un vieux chemin de promenade menant vers la mer éclairé par quelques lampadaires à huile.\n\nRetirez ce <color=Cyan>pion</color> et placez la tuile {c:TilePierT1} comme indiqué.\n\nL'odeur de poisson mélangée à l'odeur de la mer est maintenant plus forte.\nUne légère brise vous hérisse les poils des bras. 
+TokenSightPierT6.button1,Continuer
+TokenSightDock2T1.text,La promenade continue vers l'Ouest.\nRetirez ce <color=Cyan>pion</color> et placez la tuile {c:TileDock2T3} comme indiqué.\n\nIl y a une plage avec un hangar à bateaux en ruine au Nord.\nPlacez la tuile {c:TileBeachT2} et un <color=Cyan>pion Recherche</color> comme indiqué.\n\nIl y a une porte au Sud.\nPlacez un <color=Cyan>pion Exploration</color> comme indiqué.
+TokenSightDock2T1.button1,Continuer
+TokenSightDock1T1.text,Le quai continue vers l'Est. Retirez le <color=Cyan>pion Vue</color> et placez la tuile {c:TileDock1T4} comme indiqué.\n\nIl y a un bateau de pêche amarré ici. Il semble à bout mais a toujours l'air en état pour naviguer. Sur la proue du bateau est peint "My Old Lady".\nPlacez la tuile {c:TileBoatT5} comme indiqué.\n\nIl y a un homme sur le bateau, affairé à enrouler une corde.\nPlacez le <color=Cyan>pion Personnage</color>\n Bleu comme indiqué.\n\nIl y a une porte au Sud. Un panneau au-dessus de la porte indique\n"Neil's Curiosity Shop". Placez le <color=Cyan>pion Exploration</color> comme indiqué.
+TokenSightDock1T1.button1,Continuer
+TokenExploreShackT1.text,Un vieux panneau rouillé sur cette cabane indique, "Sam's Snack Shack".\nCelui-ci est fermé pour la nuit.\n\nVous essayez d'ouvrir la porte mais elle semble verrouillée.
+TokenExploreShackT1.button1,{action} Entrer dans la cabane
+TokenSearchBarrelsT1.button1,{action} Rechercher sur la table
+EventSearchBarrelsT1Pass.button1,Continuer
+EventSearchBarrelsT1.text,Vous cherchez pour voir s'il y a quelque chose d'utile ici.\nTestez {observation}(1).
+EventSearchBarrelsT1.button1,Réussite
+EventSearchBarrelsT1.button2,Échec
+TokenExploreRopeAndAnchorT3.button1,{action} Entrer
+TokenSearchBarrelsT1.text,Il y a divers objets sur ces barils.
+EventSearchBarrelsT1Fail.text,Vous n'avez trouvé rien d'intéressant. Supprimez le <color=Cyan>pion Recherche</color>.
+EventSearchBarrelsT1Pass.text,Vous trouvez un {c:QItemBrassKnucklesT1}.\nObtenez cet objet Commun et retirer le <color=Cyan>pion Recherche</color>.
+EventSearchBarrelsT1Fail.button1,Continuer
+TokenExploreNeilsCuriosityShopT4.text,C'est la boutique de curiosité de Neil. La lumière s'échappent des fissures de la porte.
+TokenExploreNeilsCuriosityShopT4.button1,{action} Entrez dans la boutique
+EventExploreRopeAndAnchorT8.text,Vous ouvrez la porte. Retirez le <color=Cyan>pion Exploration</color>.\nVous vous retrouvé dans une taverne, remplie de fumée et d'odeur de tabac froid.\nIl y a une ancienne table de billard au centre de la pièce.\n\nPlacez la tuile {c:TileRopeAndAnchorT8} comme indiqué.\n\nPlacez un <color=Cyan>pion Porte</color> à la place du <color=Cyan>pion Exploration</color>\net placez un <color=Cyan>pion Mur</color> comme indiqué.
+TokenSearchRowboatT1.button1,{action} Fouiller le bateau
+EventSearchBoatT1.text,Vous essayez de jeter un coup d'œil à l'intérieur de la chaloupe en essayant de ne pas tomber à l'eau.\n\nTestez {agility} et enregistrez le nombre de succès que vous obtenez.
+TokenSearchRowboatT1.text,Il y a une vieille chaloupe sous une bâche battue par les intempéries.
+EventSearchBoatT1.button1,Continuer
+EventSearchBoatT1.button2,Échec
+EventSearchBoatFailT1.text,Vous tombez à l'eau dans un énorme bruit d'éclaboussures.\nVous sortez de l'eau trempé en crachotant.
+EventSearchBoatFailT1.button1,Continuer
+EventSearchBoatPassT1.text,Vous réussissez à tirer le bord de la bâche pour pénétrer dans le bateau\net vous fouiller tout autour de vous.\n\nVous obtenez l'objet Commun {c:QItemFlareGunT1}.\nSupprimez le <color=Cyan>pion Recherche</color>.
+EventSearchBoatPassT1.button1,Continuer
+EventBreakIntoShackT1.text,Vous essayez de forcer la porte.\nTestez {strength} et enregistrez le nombre de réussites que vous obtenez.
+EventBreakIntoShackT1.button1,Continuer
+EventBreakIntoShackT1.button2,Échec
+EventExploreShackPassT1.text,Avec toute votre force vous reussisez à ouvrir la porte de la cabane, celle-ci s'ouvre dans un grand fracas alors que vous pénétrez à l'intérieur.\nRetirez le <color=Cyan>pion Exploration</color> et placez votre Investigateur dans la cabane.\n\nVous fouillez rapidement. Il n'y a pas grand-chose d'utile ici. Il semble que cette cabane soit utilisée pour servir des repas pendant la journée.\n\nVous parvenez à trouver un {c:QItemHolyCrossT1} attaché à un ensemble de chapelets.\nVous gagnez cet objet.
+EventExploreShackPassT1.button1,Continuer
+EventExploreShackFailT1.text,À grand coup d'épaule vous essayé d'ouvrir la porte, mais sans succés. Malheureusement, cela semble être l'un des rares éléments de cette ville en bon état.\n\nVous craignez que le bruit que vous faites n'attire l'attention sur vous.
+EventExploreShackFailT1.button1,Continuer
+TokenJerimiahDeckT5.button1,{action} Prêt à partir (tous les investigateurs sont à bord)
+TokenJerimiahDeckT5.button2,{action} Demander si le bateau est à louer
+TokenJerimiahDeckT5.button3,{action} Demandez à l'homme ce qu'il fait
+EventAskJerimiahWhatHesDoingT5.button1,Continuer
+TokenSearchRuinedBoathouseT2.text,Vous commencez à fouiller dans le hangar à bateaux en ruine. Mais alors que vous soulevez une vielle planche en bois, vous sursautez en découvrant un vieux clochard que vous venez de tirer de son sommeil qui semble aussi surpris que vous !\n\nPlacez le <color=Cyan>pion Personnage</color> Vert comme indiqué et supprimez le <color=Cyan>pion Recherche</color>.
+TokenSearchRuinedBoathouseT2.button1,Continuer
+TokenDrunkBumT2.text,Un vieil homme sans abri.
+TokenDrunkBumT2.button1,{action} Parlez au vieux clochard
+EventTalkOldBumT2.text,<i>Ahrrr ? Qu'est-ce que tu veux ? J'ai rien fait moi !</i>\n\nLe vieil homme porte des vêtements sales et sent très mauvais, pire que l'odeur des poissons pourris qui jonchent la plage.\n\nVous essayez de calmer le vieil homme et lui demandez de quoi il parle.\nTestez {influence}(2).
+EventTalkOldBumT2.button1,Réussite
+EventTalkOldBumT2.button2,Échec
+EventTalkBumFailT2.text,Le vieil homme semble de plus en plus agité. Il commence à balbutier des phrases qui n'ont aucun sens.
+EventTalkBumFailT2.button1,Continuer
+EventTalkBumPassT2.text,Vous parvenez à calmer le vieil homme et lui demandez pourquoi il est si contrarié.\n\n<i>Je croyais que vous alliez m'accuser d'avoir blessé le vieux Tork. Comme je leur ai dit, je l'ai vu partir mardi dernier et je ne l'ai pas revu depuis. La seule chose que j'ai vue il y a quelques jours en mer, ce sont ces lumières vers le vieux phare. Elles étaient vertes et clignotaient. Mais c'était seulement cette nuit-là, depuis, je ne les ai plus jamais revus. Maintenant, laissez-moi tranquille.</i>\n\nLe vieil homme se retourne et se rendort.\n\nGagnez 2 pions <color=Green>{clue}</color>. Retirez le <color=Cyan>pion Personnage</color> Vert.
+EventTalkBumPassT2.button1,Continuer
+EventEnterNeilsT4.text,Une fois la porte ouverte vous vous retrouvez dans une grande pièce remplie de bric-à-brac.\nPlacez {c:TileNeilsCuriosityShopT7} comme indiqué et retirez le <color=Cyan>pion Exploration</color>.\n\n Des boîtes sont empilées partout sur des étagères pliants sous le poids des bibelots, casseroles et autres accessoires.\nUn vieil homme vous accueille à l'entrée de la boutique.\nPlacez le <color=Cyan>pion Personnage</color> Rouge comme indiqué.\n\n<i>Bienvenue ici</i>, dit-il d'une voix rauque. <i>Je suis sur que vous trouverez votre bonheur ! Dites moi si il y'a quelque chose qui vous interesse,\nnous pouvons toujours discuter du prix après.</i>\nL'homme s'assied et vous regarde attentivement.\nVous commencez à fouiner dans la boutique. Il va falloir du temps\npour trouver quelque chose d'intéressant dans tout ce bazar.\nPlacez un <color=Cyan>pion Recherche</color> à l'endroit indiqué.
+EventEnterNeilsT4.button1,Continuer
+TokenNeilT7.text,Neil, le commerçant vous regarde avec anxiété.
+TokenNeilT7.button1,Continuer
+TokenSearchNeilsShopT7.text,Vous fouillez les étagères. Testez {observation} et notez le nombre de réussites que vous obtenez.
+TokenSearchNeilsShopT7.button1,Continuer
+TokenSearchNeilsShopT7.button2,Échec
+EventSearchNeilsFailT7.button1,Continuer
+EventSearchNeilsPassT7.text,Vous tombez sur un sextant d'aspect plutôt unique.\nIl a l'air très vieux et est couvert d'étranges décorations.\nRetirez le <color=Cyan>pion Recherche</color>.\n\nVous le portez à Neil pour plus d'information sur l'objet.\n<i>Ah, oui, Ol' Tork l'a ramené d'une de ses plongées sur la Pointe. Je lui ai fait une belle offre qui ne pouvait pas refuser...me le céder pour rembourser sa dette.\nC'est une pièce assez inhabituelle.</i>\n\nVous essayez de vous mettre d'accord sur le prix. Testez {influence}(1).
+EventSearchNeilsFailT7.text,Vous n'avez encore rien trouvé d'intéressant.
+EventSearchNeilsPassT7.button1,Réussite
+EventSearchNeilsPassT7.button2,Échec
+EventNegotiateWithNeilFailT7.text,<i>Je suis désolé, mais je ne le céderais pas pour moins de cinquante dollars</i>, dit Neil.\nMalheureusement, vous ne pouvez pas vous le permettre.\nVous le reposez sur l'étagère.
+EventNegotiateWithNeilFailT7.button1,Continuer
+EventNegotiateWithNeilPassT7.text,<i>Marché conclu, vous faites une affaire !</i> dit Neil, alors que vous lui glissez une liasse de billets. Vous espérez juste que cette vieille chose en vaille la peine.\nVous gagnez l'objet {c:QItemMysticSextantT7}.
+EventNegotiateWithNeilPassT7.button1,Continuer
+EventExploreRopeAndAnchorT8.button1,Continuer
+TokenBartenderT8.text,Une belle femme rousse tient le bar. <i>Que puis-je vous servir ?</i> demande-t-elle.\nVous commandez une pinte de bière locale.
+TokenBartenderT8.button1,{action} Demandez ce qui se passe en ville
+EventAskBartenderAboutFishermanT8.text,<i>Pas grand-chose, en cette période de l'année. Il fait trop froid en cette saison. Ce qui inquiète tout le monde en ce moment c'est la disparition du vieux Tork.\nIl n'a pas été vu depuis une semaine.\nLe vieux Mc Ginty en sait peut-être plus, c'est l'homme à la barbe grise assis là-bas sur le canapé.</i>
+EventAskBartenderAboutFishermanT8.button1,Continuer
+TokenGreyManT8.text,Le vieil homme à la barbe grise discute et boit en compagnie de son ami portant une écharpe violette.
+TokenGreyManT8.button1,{action} Renseignez-vous sur le pêcheur disparu
+EventAskMcGintyT8.text,<i>Qui êtes-vous ?</i> répond le vieil homme. Testez {influence}(2).
+EventAskMcGintyT8.button1,Réussite
+EventAskMcGintyT8.button2,Échec
+EventMcGintyFailT8.text,Après vous êtes presenté, Mc Ginty crache au sol et se retourne ostensiblement\nvers son ami, vous ignorant avec mépris.
+EventMcGintyFailT8.button1,Continuer
+EventMcGintyPassT8.text,<i>Je suis Jack Mc Ginty</i>, dit le vieil homme.\n<i>Tork est toujours pret à aider son prochain, j'espère qu'il va bien.</i>\n\nTout en prenant une gorgée, il continu.\n<i>J'l'ai pourtant averti de rester loin de ces rochers près du phare, mais il était sûr que c'était là que le Mystral avait sombré.</i>
+EventMcGintyPassT8.button1,Renseignez-vous sur le Mystral
+EventMcGintyMystral.text,<i>Tu ne dois pas être d'ici toi. Eh bien, le Mystral était un galion Espagnol rempli d'un tresor qui s'est perdu sur son chemin lors de son retour d'Amerique du Sud , il s'est fait pourchasser puis fut envoyé par le fond par un navire de la marine Britannique et ça c'est passé par ici.</i>\n\nAprès avoir pris une autre gorgée, le bougre continu.\n\n<i>Ol'Tork était sûr qu'il avait vu quelque chose dans l'eau près de la pointe, quand la mer était calme il y a de cela quelques semaines, et il a dit qu'il y retournait pour voir à nouveau. Lui et le vieux Jérémie devaient emmener la Old Lady là-bas avec un équipement pour plonger sur l'épave.</i>
+EventMcGintyMystral.button1,Demandez où se trouve le vieux Jérémie
+EventMcGintyJeremiahT8.text,<i>Eh bien, il doit être là où il est habituellement bien sûr... travaillant sur son bateau, amarré juste à côté du snack sur la jetée.</i>\n\nGagnez 2 pions <color=Green>{clue}</color>.
+EventMcGintyJeremiahT8.button1,Continuer
+TokenPurpleManT8.text,Le vieil homme porte une écharpe violette avec une salopette de marin habituelle.
+TokenPurpleManT8.button1,{action} Renseignez-vous sur le pêcheur disparu
+EventPurpleManAskT8.text,<i>Je ne sais rien de Ol'Tork, sauf qu'il me doit de l'argent...et je ne suis pas le seul !</i>\n\nIl fini par un échange de regard avec son ami barbu.
+EventPurpleManAskT8.button1,Continuer
+TokenYellowManT8.text,Le vieil homme porte un imperméable jaune par-dessus sa salopette.
+TokenYellowManT8.button1,{action} Renseignez-vous sur Tork
+EventYellowManAskT8.text,<i>Il est parti depuis environ une semaine.</i>, dit-il.\n\n<i>Je lui ai dit de rester loin du Mystral. Il y a des choses là-bas sous la mer, ces choses ne veulent pas que ce navire soit retrouvé. Mais il n'a pas voulu écouter.</i>Il se lève.\n\n<i>Eh bien, c'est pas l'tout mais je ne peux pas rester, je dois aller me coucher.</i>\nIl quitte la taverne.\n\nRetirez le <color=Cyan>pion Personnage</color> Jaune.\nVous gagnez un <color=Green>{clue}</color>.
+EventYellowManAskT8.button1,Continuer
+EventHireBoatT5.text,<i>J'aime ta façon de penser mon gars !</i> s'exclame le vieil homme. <i>J'me présente, Jeremiah Olafsson, et voici la Old Lady.</i>\n\nIl fait un grand geste solennel avec son bras vers le bateau. On voit clairement que ce bateau a connu des jours meilleurs.\n\n<i>Mais dites moi, qu'avez-vous en tête ?</i> 
+EventHireBoatT5.button1,Dites-lui que vous voulez rechercher le Mystral !
+EventJeremiahSearchMystralT5.text,<i>Eh bien, ça risque d'être dangereux, à cause des rochers</i>, dit-il.\n<i>Combien d'argent avez-vous ?</i>\n\nTestez {influence}(2).
+EventJeremiahSearchMystralT5.button1,Réussite
+EventJeremiahSearchMystralT5.button2,Échec
+EventHireBoatPassT5.text,<i>Eh bien, nous partirons ce soir.</i> dit-il.\n<i>Les Gardes-côtes interdisent cette zone à cause des rochers, mais ça c'est mon affaire.\nNous devrons êtres le plus discret possible, personne ne dois nous voir là-bas.\nJe suis prêt, c'est quand vous voulez.</i>
+EventHireBoatPassT5.button1,Prêt (tous les investigateurs doivent êtres à bord)
+EventHireBoatPassT5.button2,Pas encore prêt
+EventNotReadyT5.text,<i>D'accord, j'attendrai ici.</i>, dit Jeremiah.
+EventNotReadyT5.button1,Continuer
+EventReadyToSetSailT5.text,<i>OK, aidez-moi à la manoeuvre il faut jeter les cordes d'amarrage</i>, dit Jeremiah en se dirigeant vers la timonerie.\nDéplacez le <color=Cyan>pion Personnage</color> Bleu comme indiqué. Le diesel crache un peu puis démarre. Jeremiah manoeuvre pour qu'enfin la Old Lady s'éloigne de la jetée.\n\nAprès un petit moment, les côtes disparaissent de votre vue. Dans la nuit noire un leger clair de lune et quelques étoiles essayent de percer les nuages sombres et menaçant.\n\nRetirez tous les <color=Cyan>pions</color> et tuiles du plateau, à l'exception de la tuile {c:TileBoatT5}.
+EventReadyToSetSailT5.button1,Continuer
+EventHireBoatFailT5.text,<i>Tu vas devoir faire mieux que ça</i>, dit-il.
+EventHireBoatFailT5.button1,Continuer
+EventBoatArrivesT5.text,Après quelques heures de voyage, le bateau arrive à proximité du phare.\n\nVous scrutez les eaux pendant plus d'une heure, tandis que Jeremiah manœuvre en vrai professionnel et avec méthode le bateau en cercles concentriques.
+EventBoatArrivesT5.button1,Continuer
+TokenJerimiahDeckT5.text,Le vieil homme est occupé à travailler sur son bateau.
+EventReadyToDiveT5.text,<i>Oui, c'est un endroit merveilleux...comme bien d'autres endroits...</i>, dit Jeremiah.\n<i>Alors, lequel d'entre vous fera la plongée ?</i>\n(Choisissez un investigateur pour enfiler le scaphandre de plongée).\n\nJeremiah démarre un vieux compresseur d'air qui s'anime et vous aide à enfiler la combinaison de plongée. Un tuyau d'air en caoutchouc relie le compresseur au casque. Un câble en acier rouillé relie une plaque à l'arrière de la combinaison à un treuil.\nIl vous aide à enfiler la ceinture de plomb et les bottes lestées.\nVous pouvez à peine bouger.\n\n(Un investigateur gagne l'objet Commun {c:QItemDiversHelmetT5})\nSi les investigateurs ont un couteau, le plongeur peut le prendre.\n\n<i>Maintenant faites attention avec ce tuyau là</i>, dit Jeremiah.\n<i>Tirez une fois sur le câble pour plus de mou, deux fois pour remonter,\net plusieurs fois si vous avez des ennuis.</i>\n\nPlacez un pion Interaction comme indiqué, il s'agit du treuil. (Placez aussi un investigateur pour manœuvrer le treuil).\nJeremiah aide le plongeur à grimper par-dessus le plat-bord et à descendre\ndans l'eau par l'échelle.\n\n(Déplacez la figurine de l'investigateur plongeur sur la table à côté de la tuile bateau)\n<i>C'est bon, on y va...</i>, crie Jérémie et votre ami commence sa descente sous la mer.
+EventReadyToDiveT5.button1,Continuer
+EventFoundCapT5.button1,Continuer
+EventFoundCapT5.text,Soudain, vous apercevez quelque chose qui tangue dans les vagues. Vous criez...\n<i>À l'avant de la proue, à bâbord ! Je vois quelque chose !</i>\nJeremiah met le moteur au ralenti.\n\nVous attrapez une gaffe afin d'attraper l'objet hors des vagues.\nUn Investigateur gagne l'objet Commun {c:QItemCaptainsHatT5}.\n\n<i>Oui, c'est bien la casquette d'Ol' Tork</i>, dit Jeremiah, <i>et on dirait qu'il a rencontré des problèmes.</i> Jeremiah vous montre une grande tache de sang sur la casquette.\n\nL'Investigateur avec le moins d'<color=Teal>Horreur</color> prend 1 <color=Teal>Horreur</color> face cachée ({will} annule).
+EventGoingDownT5.text,<b>(SOUS LA MER)</b>\n\nVous descendez dans des ténèbres obscures. Vous ne voyez absolument rien,\npas même le bout de vos mains.\n\nPrenez 1 <color=Teal>Horreur</color> ({will}-1 annule).\n\nN'oubliez pas d'allumer la lampe de poche attachée à la combinaison,\nque Jeremiah vous a donnée.\n\nLa lumière n'a presque aucun effet, sauf lorsque vous la dirigez vers votre combinaison. Vous la pointez vers le bas, et tout ce que vous pouvez voir, ce sont vos pieds, suspendus au-dessus de la noirceur. Tout est silencieux sauf votre respiration et le bruit des bulles qui se dégagent de votre casque de scaphandre.\n\nPrenez 1 <color=Teal>Horreur</color> ({will}-1 annule).\n\nVous continuez votre descente.
+EventGoingDownT5.button1,Continuer
+EventTouchdownT5.text,<b>(À BORD DU BATEAU)</b>\n\nLe câble se relâche. Le plongeur doit avoir atteint le fond. Vous échangez des regards silencieux avec Jeremiah.\n<i>Maintenant nous devons attendre.</i> dit-il.
+EventTouchdownT5.button1,Continuer
+EventTouchdownT17.text,<b>(SOUS LA MER)</b>\n\nSoudain, vos pieds touchent le fond de l'océan. Il y a une couche de boue, mais elle ne fait que quelques centimètres d'épaisseur.\nVous allumez la lampe de plongée pour scruter dans toutes les directions.\nRien, rien que du noir.\n\nLe plongeur prend 1 <color=Teal>Horreur</color> face cachée ({will} annule).\n\nATTENDEZ... LÀ... quelque chose de pas tout à fait aussi noir par là-bas...\nVous décidez d'aller dans cette direction en marchant péniblement...\nUn pas, puis un autre... arrachant vos bottes lestées de la boue.
+EventTouchdownT17.button1,Continuer
+EventWreckT17.text,Vous atteignez ainsi l'épave et montez maladroitement à bord. C'est bien le Mystral et le galion est étonnamment intact.\nPlacez le {c:TileWreckT17} et votre Investigateur comme indiqué.\n\nDes restes de mâts, de canons et de planches de toutes sortes sont entassés partout.\nPlacez les <color=Cyan>pions Fouille</color> comme indiqué.
+EventWreckT17.button1,Continuer
+TokenWreckage2T17.text,Ici il pourrait y avoir quelque chose sous le mât effondré sur le pont.
+TokenWreckage2T17.button1,{action} Essayez de déplacer le mât hors du chemin
+TokenWreckage1T17.text,Un tas de planches et d'autres débris bloquent l'accès à une trappe.
+TokenWreckage1T17.button1,{action} Dégager l'ouverture de la trappe
+EventClearHatchT17.text,Vous essayez de déplacer les planches et de dégager la trappe. Testez {strength} et enregistrer les succès que vous avez obtenus.
+EventClearHatchT17.button1,Continuer
+EventClearHatchT17.button2,Échec
+EventMoveMastT17.text,Vous vous déplacez, en essayant de trouver une position afin de pouvoir faire levier, vous tirez de toutes vos forces sur le mât. Testez {strength}(1).
+EventMoveMastT17.button1,Réussite
+EventMoveMastT17.button2,Échec
+EventMoveMastFailT17.text,Vous arrivez à déplacer légérement le mât, mais ce n'est pas encore assez vous n’avez pas assez de prise. Vous devriez changer de position et essayer de nouveau.
+EventMoveMastFailT17.button1,Continuer
+EventMoveMastPassT17.text,En puissant dans toute vos forces vous parvenez à déplacer légérement le mât pour le laisser tomber à nouveau sur le côté. Vous trouvez rien à part quelques vieilles bottes de marins qui etaient en dessous. Défaussez le <color=Cyan>pion Recherche</color>.
+EventMoveMastPassT17.button1,Continuer
+EventClearHatchFailT17.text,Vous arrivez à déplacer l'amas de planches et autres débris, mais vous ne pouvez toujours pas ouvrir la trappe.
+EventClearHatchFailT17.button1,Continuer
+EventClearHatchPassT17.text,Avec un énorme effort, vous enlevez la dernière planche qui bloquaient la trappe.\nVous arrivez finalement à l'ouvrir.\n\nRetirez le <color=Cyan>pion Recherche</color> et placer le <color=Cyan>pion Trappe</color> comme indiqué.
+EventClearHatchPassT17.button1,Continuer
+TokenTrapdoorT17.text,Cette trappe mène à la cale.
+TokenTrapdoorT17.button1,{action} Descendre dans la cale
+EventDeepOnesAttackT5.text,<b>(À BORD DU BATEAU)</b>\n\nLe cable semble se détendre et se tendre. C’est un bon signe, cela signifie que le plongeur se déplace.\n\nSoudain Il y a un bruit étrange d'éclaboussure derrière vous.
+EventDeepOnesAttackT5.button1,Continuer
+SpawnDeepOneT5.button1,Continuer
+EventEnterHoldT17.text,Alors que vous venez de descendre quelques marches qui menent vers la cale, l'escalier en bois, pouries par l'océan, ne resistent pas au poids de votre scaphandre et s’effondre sous vos pieds. Dans votre chute vous essayez d’empêcher votre tuyau de se bloquer ou de s’arracher dans les décombres de la cale.\n\nRetirer votre Investigateur du plateau.\n\nTestez {agility}(1).
+SpawnDeepOneT5.text,Une étrange créature, sorte de croisement entre un homme et un poisson, franchie le plat-bord du bateau et se retrouve sur le pont du navire. Placez un Profond comme indiqué. la créature gemit une phrase à peine compréhensible.\n<i>Ceee vaaaisseaau essst à nooouus.</i>\n\nTous les Investigateurs à bord de la Old Lady peuvent prendre 2 {action}, puis la phase d’investigation est terminée.
+EventEnterHoldT17.button1,Réussite
+EventEnterHoldT17.button2,Échec
+EventFallIntoHoldFailT17.text,Par chance le tuyau n'a pas été endommagé ou coincé dans votre chute, mais votre jambe à taper sur un bord acéré du reste de l'escalier.\nPrenez 1 Dommage.\n\nVous faites un tour d'horizon de la cale avec votre lampe. Il y a beaucoup de coffres. Il vous faudra du temps pour tous les fouiller.
+EventFallIntoHoldFailT17.button1,{action} Rechercher dans les coffres
+EventFallIntoHoldPassT17.text,Par chance le tuyau n'a pas été endommagé ou coincé dans votre chute,\nvous avez évité le pire.\n\nVous faites un tour d'horizon  de la cale avec votre lampe. Il y a beaucoup de coffres.\nIl vous faudra du temps pour tous les fouiller.
+EventFallIntoHoldPassT17.button1,{action} Rechercher dans les coffres
+EventSearchChestsT17.text,Vous passez de coffre en coffre mais ils semblent tous verrouillés, et vous êtes\nincapable de les forcer.\nAu moment où vous êtes sur le point d’abandonner, vous trouvez une sorte de boîte en fonte noire qui semble ouverte. À l’intérieur, vous trouvez une petite boîte en bois recouverte de runes étranges.\n\nVous obtenez l'objet Commun {c:QItemGateBoxT17}.\n\nVous tirez deux fois sur le câble pour remonter.
+EventSearchChestsT17.button1,Continuer
+TokenWinchT5.text,Le treuil manuel
+TokenWinchT5.button1,{action} Hissez-le !
+EventHoistAwayT5.text,De toutes vos forces vous tournez la manivelle du treuil pour remonter le plongeur-scaphandrier. Vous êtes surpris par sont poids, il ne vous semblait pas aussi lourd lors de sa descente.\nTestez {strength}(2).\nNe pas en tenir compte si un autre Investigateur est disponible pour vous aider.
+EventHoistAwayT5.button1,Réussite
+EventHoistAwayT5.button2,Échec
+EventHoistAwayFailT5.text,Vous n’arrivez pas à tourner la manivelle. Le treuil est peut-être bloqué.\nEssayer plus fort.
+EventHoistAwayFailT5.button1,Continuer
+EventHoistAwayPassT5.text,Lentement, vous commencez à hisser le scaphandrier à la surface.
+EventHoistAwayPassT5.button1,Continuer
+EventGoingUpT5.text,<b>(SOUS LA MER)</b>\n\nVous commencez à sentir le cable se tendre et vous tirer vers le haut.\nVous protégez soigneusement votre tuyau d’air contre les dommages lorsque vous vous déplacez et remonté de la cale.\n\nRetirer la tuile {c:TileWreckT17} ainsi que tous les pions dessus. Placez votre Investigateur sur le plateau à côté du bateau.
+EventGoingUpT5.button1,Continuer
+EventContinueUpT5.text,<b>(SOUS LA MER)</b>\n\nVous êtes de nouveau plongé dans les ténèbres obscures de l'océan.\nVous ne pouvez plus dire si vous vous déplacez vers le haut ou le bas.\nPrenez 1 <color=Teal>Horreur</color> ({will}-1 annule)\n\nAprès ce qui semble être une éternité, vous atteignez enfin la surface. Le capitaine Jeremiah vous aide à remonter à bord.\nPlacez votre Investigateur à l’arrière du bateau.
+EventContinueUpT5.button1,Continuer
+EventBackOnBoardT5.text,Tout le monde se rassemble pour examiner le coffre et la boîte à l’intérieur.\n\n<i>Jamais vu ce genre de chose</i>, dit Jérémie.\nVous regardez de plus près le couvercle de la boite.\nLorsque vous appuyez sur un crochet sur la boîte, l’un des côtés s’ouvre.\nA l’intérieur, vous trouvez un tube scellé contenant un rouleau.\nVous gagnez le sort {c:QItemPlumbTheVoidT5}.\n\nPendant que Jermiah vous aide à sortir du scaphandre, tout le monde s'affaire à ranger le pont en vue du voyage de retour.
+EventBackOnBoardT5.button1,Continuer
+EventTimeToGoT5.text,Vous entendez un étrange bruit, venant du côté tribord du navire. Tout le monde se déplace vers le plat-bord pour regarder l’énorme bouillon de bulles qui écument l’eau tout le long du côté de la Old Lady.\nVous voyez une masse longue et noir sous l’eau qui remonte à la surface...\nVous en revenez pas, c'est un submersible métallique, cinq ou six fois la longueur de la Old Lady qui remonte à la surface à seulement quelques mètres du côté tribord.\nAvant que vous puissiez réagir, une trappe s’ouvre à l'avant du submersible, et trois hommes en uniforme noir apparaissent. Sans un mot, ils se déplacent rapidement pour installer une mitrailleuse Gatling sur un support et vous mettent en joue.\n\nUn homme plus âgé portant un uniforme similaire fait son apparition.\n<i>Eh bien, qu’avons-nous ici ?</i> , crie-t-il, <i>On dirait que quelqu’un a fait le boulot et a trouvé le trésor à notre place les gars !</i>\nLe Captain Jermiah sort un couteau et l'agite dans leur direction.\n<i>Éloignez-vous, canailles. Je sais comment m’en servir !</i>\nLe chef  en uniforme se mets à rire. <i>Expliquez-leur les gars !</i> L’un des hommes derrière la mitrailleuse tire sur le levier d'armement et fait feux sur le pauvre Capitaine Jermiah.\nIl s’effondre sur le pont pour mourir dans les bras de sa Old Lady.\n\n<i>Quelqu’un d’autre ?</i> demande le Capitaine du submersible.\nVous mettez les mains sur vos têtes.
+EventTimeToGoT5.button1,Continuer
+EventCapturedT5.text,<i>Enfin, un peu de bon sens.</i> s’exclame le Capitaine, <i>Les gars, amenez-nous à côte.</i>\n\nDeux autres hommes apparaissent avec des crochets d'abordage, tirent le submersible rapidement contre la Old Lady, et s'amarre à celle-ci.\n\n<i>Maintenant, voila ce qui va se passer.</i> la figure énigmatique esquisse un sourire sarcastique. <i>Mes gars vont venir à bord, prendre le trésor, nous allons vous embarquer à bord de mon navire ou vous serez placer sous haute surveillance. Nous allons vous déposer à terre près de KingsPort. Et surtout pas de manigance, sinon vous vous retrouverez dans le casier de Davey Jones !</i>\n\nIl ne semble pas que vous ayez le choix.\n\nDeux hommes armés montent à bord de la Old Lady, vous attachent les mains dans le dos, vous bandent les yeux et vous conduisent à bord du submersible.\n\nLes Investigateurs doivent abandonner tout leurs objets autres que les sorts et les indices.\n\nVous êtes conduit à travers un labyrinthe, d'échelles de pièces et de couloirs, pour finalement être jeté à terre. Après vous avoir administrés des drogues, vous vous retrouvez inconscients.\n\nRetirez toutes les tuiles et les pions du plateau, ainsi que tous les objets perdus.
+EventCapturedT5.button1,Continuer
+EventWakingUpT11.text,Vous vous réveillez avec un terrible mal de tête completement trempé.\nVous entendez un bruit étrange de sifflement.\n\nEn rempant sur le dos, vous arrivez à délier petit à petit les cordes qui vous lient les mains, puis vous reussisez enfin à arracher votre bandeaux pour découvrir ou vous êtes.\nVous vous trouvez dans une sorte de soute.\n\nPlacez la tuile {c:TileStorageHoldT11} ainsi que les Investigateurs comme indiqué.
+EventWakingUpT11.button1,Continuer
+EventLookAroundT11.text,Les parois métalliques incurvées de la pièce indiquent clairement que vous êtes à l’intérieur du submersible. Mais il doit y avoir un problème. Il y a beaucoup d’eau sur le plancher. Il semble qu’il y ait une fuite quelque part.\n\nIl y a deux portes écoutille qui ferment le compartiment.\nIl y a beaucoup de caisses et de barils dans la pièce.\n\nPlacez les <color=Cyan>pions Exploration</color> et les <color=Cyan>pion Recherche</color> comme indiqué.
+EventLookAroundT11.button1,Continuer
+TokenSearchAftT11.text,Vous pouvez chercher dans les caisses. Testez {observation}(1).
+TokenSearchAftT11.button1,Réussite
+TokenSearchAftT11.button2,Échec
+EventSearchAftFailT11.text,Vous ne trouvez rien.
+EventSearchAftFailT11.button1,Continuer
+EventSearchAftPassT11.text,Vous trouvez un {c:QItem2x4T11}.\n\nRetirer le <color=Cyan>pion Recherche</color>.
+EventSearchAftPassT11.button1,Continuer
+EventSearchBoxFwdT11.text,La caisse contient les objets qui vous ont été confisqués à bord de la Old Lady,\ntous sauf la boîte arrachée des entrailles du Galion.\nGagnez ces objets et retirer le <color=Cyan>pion Recherche</color>.
+TokenSearchFwdT11.button1,{action} Ouvrir la caisse
+EventSearchBoxFwdT11.button1,Continuer
+TokenSearchFwdT11.text,Vous trouvez une caisse sur le sol qui semble avoir été déplacé ici récemment.
+TokenExploreEngineRoomT11.text,La porte de ce compartiment est fermée, mais les serrures ne semblent pas verrouillés. L’eau s'infiltre dans la soute par le bas de la porte. 
+TokenExploreEngineRoomT11.button1,{action} Ouvrir la porte
+EventExploreEngineRoomT11.text,Vous tournez la poignée au centre de l'écoutille pour l'ouvrir.\nL'eau jaillit...\n\nOn dirait que le niveau d'eau dans cette pièce était un peu plus haut que dans la soute. Désormais le niveau d'eau dans les deux pièces s'équilibre et arrive à vos genoux.\nLa porte s'ouvre sur ce qui semble être la salle des machines. La pièce est remplie d'instruments de mesure et d'imposantes machineries.\n\nPlacez la tuile {c:TileEngineT10} comme indiqué.\n\nIl y a un sac à charbon près de la porte. Placez le <color=Cyan>pion Fouille</color> comme indiqué.
+EventExploreEngineRoomT11.button1,Continuer
+TokenSearchEngineRoomT10.text,Vous trouvez un {c:QItemCoalShovelT10}. Supprimez le <color=Cyan>pion Recherche</color>.
+TokenSearchEngineRoomT10.button1,Continuer
+EventEngineRoomDescContdT10.text,La salle des machines est silencieuse, à l'exception du bruissement d'une voie d'eau impossible à voir d'ou vous êtes. Les moteurs ne semblent pas fonctionner.\nPlusieurs jauges semblent être dans le rouge. Placez le <color=Cyan>pion Fouille</color> comme indiqué.\n\nUne étrange faille scintillante se trouve près de la porte.\nPlacez un <color=Cyan>pion Faille</color> comme indiqué et gagnez 2 pions <color=Green>{clue}</color>.\nIl semble y avoir une traînée de sang menant du centre de la pièce jusqu'à la faille.
+EventEngineRoomDescContdT10.button1,Continuer
+TokenEngineGaugesT10.text,Il y a une multitudes de vannes, de  compteurs, de jauges et autes instruments de mesure. Il va vous falloir du temps et des efforts pour comprendre leur signification.
+TokenEngineGaugesT10.button1,{action} Analysez les instruments
+EventExamineGaugesT10.text,Vous jetez un coup d'œil sur les jauges. Testez {lore} et enregistrez le nombre de succès que vous obtenez.
+EventExamineGaugesT10.button1,Continuer
+EventExamineGaugesT10.button2,Echec
+EventExamineGaugesFailT10.text,Vous avez besoin d'un peu plus de temps pour comprendre\nla signification des instruments.
+EventExamineGaugesFailT10.button1,Continuer
+EventExamineEngineGaugesPassT10.text,Les instruments de mesure indiquent qu'il y a eu une panne électrique et que les moteurs ont été arrêtés manuellement. L'alimentation de secours est activée.\nLes pompes de cale sont allumées mais ne sont pas alimentées.\n\nRetirez ce <color=Cyan>pion Recherche</color> et remplacez-le par un <color=Cyan>pion Interaction</color>.
+EventExamineEngineGaugesPassT10.button1,Continuer
+TokenRepairBilgePumpsT10.text,Vous pouvez tenter de réparer les pompes de cale en utilisant votre {lore}.
+TokenRepairBilgePumpsT10.button1,{action} Réparer les pompes
+SpawnSpawnShamblerT10.button1,Continuer
+PuzzleRepairBilgeCircutT10.button1,Essayer
+EventWaterRisingT10.text,Le niveau d'eau ne cesse de monter. Placez les <color=Cyan>pions Eau</color> comme indiqué.\n\n<b>Appliquez les règles spécifique pour l'eau de l'extension "Effroyables excursions"</b>\n\nLes Investigateurs ou les monstres qui se déplacent dans une case avec une tuile Eau pendant une action de Déplacement perdent tout mouvement restant\n(c'est-à-dire qu'ils ne peuvent pas se déplacer d'une case supplémentaire).\n\nLes monstres aquatiques, volants et en action ne perdent pas leur mouvement restant.\n\nLorsque l'eau est placée dans un espace contenant du feu,\ndéfaussez le feu de cet emplacment.\nLe feu ne peut pas être placé dans un espace contenant de l'eau.
+SpawnSpawnShamblerT10.text,La faille brille soudainement et une horrible créature franchie le portail !\nFaites apparaître un Vagabond Dimensionnel comme indiqué.\n\n<b>Notez que les monstres comme les "Vagabond Dimensionnel" peuvent se déplacer à travers les frontières et les murs infranchissables et ne sont pas affectés par l'eau.</b>
+EventWaterRisingT10.button1,Continuer
+EventBilgePumpsFixedT10.button1,Continuer
+EventBilgePumpsFixedT10.text,Vous réparez le circuit. La pompe de cale prend vie !\nLe niveau d'eau semble se maintenir.\n\nRetirez le <color=Cyan>pion Interaction</color>.
+TokenExploreSickBayT11.text,Cette porte écoutille est bloquée.\nTestez {strength} et enregistrez le nombre de réussites que vous obtenez.\nSi vous avez un 2 X 4, vous pouvez l'utiliser comme bélier\n- Lancez un dé supplémentaire.
+TokenExploreSickBayT11.button1,Continuer
+TokenExploreSickBayT11.button2,Echec
+EventExploreSickBayFailT11.text,La porte est toujours bloquée.
+EventExploreSickBayFailT11.button1,Continuer
+EventExploreSickBayPassT11.text,Vous forcez la porte mais celle-ci est trop voilée pour être refermée.\nRetirez le <color=Cyan>pion Exploration</color>.\n\nLa pièce suivante semble être l'infirmerie, il y a des instruments médicaux sur les tables et sur les étagères.\nPlacez la tuile {c:TileSickBayT12} et les <color=Cyan>pion Fouille</color> comme indiqué.\n\nLa porte de la pièce suivante est fermée Il s'agit d'une porte normale, non étanche.\nPlacez le <color=Cyan>pion Exploration</color> comme indiqué.\n\nVous pouvez rentrer dans cette pièce.
+EventExploreSickBayPassT11.button1,Continuer
+EventEnterSickBayWithoutPumpsT12.text,L'eau se déverse dans l'infirmerie depuis la soute. Placez les pions Eau comme indiqué.
+EventEnterSickBayWithoutPumpsT12.button1,Continuer
+TokenExploreGalleyT12.text,La porte est fermée
+TokenExploreGalleyT12.button1,{action} Ouvrir la porte
+EventExploreGalleyT12.text,Vous ouvrez la porte qui mène à ce qui semble être les cuisines. Placez la tuile {c:TileGalleyT14} comme indiqué. Retirez le <color=Cyan>pion Exploration</color> et placez un <color=Cyan>pion</color> sur le mur du fond comme indiqué.\nIl y a des objets intéressants sur cette table. Placez un <color=Cyan>pion Fouille</color> comme indiqué.\n\nUne porte à gauche mène à la salle suivante et la porte de la cuisine semble fermée. Placez les <color=Cyan>pion Exploration</color> comme indiqué.\n\nIl y a le cadavre d'un marin ensanglanté allongé sur le sol.\nPlacez le <color=Cyan>pion Personnage</color> Jaune comme indiqué.\n\nUn harpon a fini sa course dans le mur. Placez le <color=Cyan>pion Interaction</color> comme indiqué.\n\nVous pouvez entrer dans la pièce.
+EventExploreGalleyT12.button1,Continuer
+TokenExploreKitchenT14.button1,{action} Ouvrir la porte de la cuisine
+EventExploreKitchenT14.text,Vous ouvrez la porte de la cuisine. Retirez le <color=Cyan>pion Exploration</color>.\nVous pouvez fouiller les tiroirs. Placez les <color=Cyan>pions Recherche</color> comme indiqué.\n\nIl y a une fissure ici. Placez le <color=Cyan>pion Fissure</color> comme indiqué.\n\nVous pouvez entrer dans la cuisine.
+TokenExploreKitchenT14.text,Cette porte mène vers les cuisines.
+EventExploreKitchenT14.button1,Continuer
+TokenSearchDrawersT14.text,Vous pouvez fouiller les tiroirs.
+TokenSearchDrawersT14.button1,{action} Rechercher
+TokenYellowSailorT14.text,Le corps de ce marin est recouvert de marques de griffes.\nVous fouillez le corps du malheureux. Testez {observation}(2).
+TokenYellowSailorT14.button1,Réussite
+TokenYellowSailorT14.button2,Échec
+EventWaterEntersGalleyFromSickBayT14.button1,Continuer
+TokenSearchCabinetT14.button1,{action} Rechercher
+EventSearchSailorFailT14.text,Vous ne trouvez rien.
+EventSearchSailorFailT14.button1,Continuer
+EventSearchSailorPassT14.text,Vous fouillez dans les poches du cadavre.\nPrenez 1 <color=Teal>Horreur</color> ({will} annule).\n\nVous trouvez un pistolet. Prenez l'objet {c:QItem41DerringerT14}.\n\nRetirez le <color=Cyan>pion Personnage</color> Jaune.
+EventSearchSailorPassT14.button1,Continuer
+EventWaterEntersGalleyFromSickBayT14.text,L'eau se déverse dans les cuisines depuis l'infirmerie. Placez le pion Eau comme indiqué.
+EventSearchDrawersT14.button1,Continuer
+EventSearchCabinetT14.button1,Continuer
+TokenSearchCabinetT14.text,Vous pouvez fouiller cette armoire.
+EventSearchCabinetT14.text,Vous sortez un {c:QItemExtinguisherT14}. Supprimez le <color=Cyan>pion Recherche</color>.
+SpawnDimensionalShamblerT14.text,Un monstre franchit la faille dans les cuisines. Faites apparaître\nun Vagabond dimensionnel comme indiqué.
+EventSearchDrawersT14.text,Vous regardez à travers les couverts et vous tombez sur un {c:QItemMeatCleaverT14}.\nSupprimez le <color=Cyan>pion Recherche</color>.
+SpawnDimensionalShamblerT14.button1,Continuer
+TokenExploreCrewQtrsT14.text,Cette porte est fermée.
+TokenExploreCrewQtrsT14.button1,{action} Ouvrir la porte
+EventExploreCrewQtrsT14.text,La porte s'ouvre sur ce qui semble être les quartiers de l'équipage.\nPlacez la tuile {c:TileCrewQuartersT13} comme indiqué.\n\n Retirez le <color=Cyan>pion Exploration</color>.\n\nLa pièce est parsemée de corps démembrés.\nPlacez les <color=Cyan>pions Personnage</color> Violet, Vert et Rouge comme indiqué.\n\nPrenez 2 <color=Teal>Horreur</color> ({will} annule).
+EventExploreCrewQtrsT14.button1,Continuer
+EventCrewDescContdT13.text,À votre gauche se trouve un tas d'équipements de navigation.\nPlacez le <color=Cyan>pion Recherche</color> comme indiqué.\n\nÀ votre droite se trouve une armoire. Placez le <color=Cyan>pion Fouille</color> comme indiqué.\n\nLa porte de la salle suivante est fermée. Placez le <color=Cyan>pion Exploration</color> comme indiqué.\n\nVous pouvez vous déplacer d'une case dans les quartiers de l'équipage.
+EventCrewDescContdT13.button1,Continuer
+TokenSearchCabinetT13.text,Vous pouvez fouiller le compartiment
+TokenSearchCabinetT13.button1,{action} Rechercher dans le compartiment
+EventSearchCabinetT13.text,Vous trouvez une lanterne. Gagnez l’objet Commun {c:QItemLanternT13}.\nSupprimez le <color=Cyan>pion Recherche</color>.
+EventSearchCabinetT13.button1,Continuer
+TokenNavalEquipT13.text,Vous pouvez fouiller dans la pile des équipements de navigation.
+TokenNavalEquipT13.button1,{action} Rechercher
+EventSearchNavalEquipT13.text,Obtenez le {c:QItemNetT13}. Supprimez le <color=Cyan>pion Recherche</color>.\n\nEn raison de son action mentionnée, le Filet peut être utilisé pour retenir une créature en faisant un test {agilty}(2) réussi comme une action d’attaque. Si vous réussissez, défaussez le Filet. Ignorez toutes les actions que la créature prend pendant son tour, et ne faites pas de test d’<color=Teal>Horreur</color> contre elle. Il n’y a pas besoin d’échapper à la créature pendant le tour, elle est emmêlée dans le filet.
+EventSearchNavalEquipT13.button1,Continuer
+TokenPurplePersonT13.text,À en juger par l'etat de son uniforme taché d'huile et de graisse cet homme devait faire partie de l’équipe de la salle des machines.
+TokenPurplePersonT13.button1,{action} Recherchez parmi les corps
+EventSearchPurplePersonT13.text,Vous recherchez l’ingénieur. Prenez l’objet Commun {c:QItemWrenchT13}.\nRetirez le <color=Cyan>pion Personnage</color> Violet.
+EventSearchPurplePersonT13.button1,Continuer
+TokenRedPersonT13.text,La tête de cet homme a été litteralement écrasée. Un livre est coincé sous son corps.
+TokenRedPersonT13.button1,{action} prendre le livre
+EventInspectDiversJournal.text,C'est le journal de bord, il décrit les tentatives de l'équipage du sous-marin pour localiser le Mystral perdu et son trésor.\n\nbien plus qu'une fortune en or, le trésor contiendrait une "Boîte mysterieuse". Il n'est pas certain qu'ils connaissaient le but ou l'utilisation de celle-ci.\n\nObtenez un <color=Green>{clue}</color>.
+EventInspectDiversJournal.button1,Continuer
+EventSearchRedPersonT13.text,Gagnez l'objet {c:QItemDiversJournalT13}. Cet objet peut être examiné dans l'inventaire en utilisant le menu Objets.\nRetirez le <color=Cyan>pion Personnage</color> Rouge.
+EventSearchRedPersonT13.button1,Continuer
+TokenExploreChartT13.button1,{action} Ouvrir la porte
+EventCrewQtrsFloodsT13.text,L'eau inonde desormais les quartiers de l'équipage depuis les cuisines. Placez les <color=Cyan>pions Eau</color> comme indiqué.
+TokenExploreChartT13.text,La porte est fermée
+EventCrewQtrsFloodsT13.button1,Continuer
+EventExploreChartRoomT13.text,Au moment ou vous ouvrez la porte, les lumières de secours se mettent à clignoter, puis s'éteignent brusquement. Placez des <color=Cyan>pions Ténèbres</color> sur toutes les tuiles du submersible.\n\nLes pompes de cale ont cessé de fonctionner elles aussi.\n\nPlacez des <color=Cyan>pions Eau</color> sur toutes les tuiles du submersible.
+EventExploreChartRoomT13.button1,Continuer
+EventExploreChart2T13.text,Cette porte mène à une pièce contenant une petite bibliothèque, il y a au centre de la pièce une grande table avec une carte marine déplié.\nPlacez la tuile {c:TileChartRoomT15} comme indiqué et retirez le <color=Cyan>pion Exploration</color>.\n\nIl y a peut-être quelque chose d'utile sur les étagères à votre gauche.\nPlacez le <color=Cyan>pion Recherche</color> comme indiqué.\nIl peut y avoir aussi quelque chose d'utile sur la table des cartes.\nPlacez le <color=Cyan>pion Fouille</color> comme indiqué.
+EventExploreChart2T13.button1,Continuer
+TokenSearchChartTableT15.text,La carte représente la baie de KingsPort. Vous pouvez regarder de plus près.
+TokenSearchChartTableT15.button1,{action} Examiner le graphique
+EventSearchChartT13.text,Le tableau est très ancien. Le parchemin semble très fragile et cassant. Le texte est dans une langue que vous n'avez jamais vue auparavant.\n\nDiverses lignes et inscriptions sont marquées en rouge. Ils semblent converger vers un point proche de celui que vous estimez être l'emplacement de l'épave du Mystral.\n\nGagnez l'objet {c:QItemMapofLeyLinesT15} et un pion <color=Green>{clue}</color>.\nSupprimez le <color=Cyan>pion Recherche</color>.
+EventSearchChartT13.button1,Continuer
+TokenRemoveHarpoonT14.text,C'est un véritable harpon pour la chasse orné de somptueuses décorations sur son manche. Il est solidement fixé au mur. Un joueur avec le bon outil\npeut surement le décrocher.
+EventRemoveHarpoonT15.text,Vous décrocher le harpon de son logement.\nGagnez l'objet {c:QItemHarpoonT15}. Supprimez le <color=Cyan>pion Interaction</color>.
+EventRemoveHarpoonT15.button1,Continuer
+TokenSearchBookshelvesT15.text,Il y a beaucoup de livres sur les étagères, vous pouvez les parcourir pour trouver quelque chose d'intéressant.
+TokenSearchBookshelvesT15.button1,{action} Rechercher parmi des livres
+EventSearchBooksT15.text,Testez {lore}(2)
+EventSearchBooksT15.button1,Réussite
+EventSearchBooksT15.button2,Échec
+EventSearchBooksFailT15.text,Vous ne trouvez rien d'intéressant. Peut-être devriez-vous continuer à chercher ?
+EventSearchBooksFailT15.button1,Continuer
+EventSearchBooksPassT15.text,Vous trouvez un livre très ancien qui traite de l'alignement des étoiles dans les cieux. Obtenez le {c:QItemAstronomyBookT15} et un pion <color=Green>{clue}</color>.\n\n Supprimez le <color=Cyan>pion Recherche</color>.
+EventSearchBooksPassT15.button1,Continuer
+EventExploreChart3T13.text,Il y a une faille dans cette pièce. Placez un <color=Cyan>pion Faille</color> comme indiqué.\n\nCe qui reste de l'étrange boite noire repose sur le sol, à côté de la faille ouverte. On dirait qu'elle semble avoir explosé. Un filet de fumée s'élève de l'un des fragments.\nLes restes brûlés d'un corps reposent à proximité de celle-ci.\nUne écoutille menant à la pièce voisine est fermée.\nPlacez le <color=Cyan>pion Exploration</color> comme indiqué.\n\nL'eau ne cesse de se déverser dans la pièce. Placez les <color=Cyan>pions Eau</color> comme indiqué.\n\nLa pièce est plongée dans l'obscurité. Placez les <color=Cyan>pions Ténèbres</color> comme indiqué.\n\nVous pouvez vous déplacer d'une case dans cette pièce.
+EventExploreChart3T13.button1,Continuer
+TokenExploreBridgeT15.button1,{action} Ouvrir la porte
+EventExplainRiftsT10.text,<color=Red><b>Notes sur les règles de l'extension <i>Effroyables Excursions</i> concernant les Failles :</b></color>\n\nAprès qu'un Investigateur dans un espace contenant une Faille ait effectué une action autre que l'action de déplacement, il devient Perdu dans le temps et l'espace. La même chose se produit s'il perd une action dans un espace avec une Faille.\n\nEn tant qu'action, un Investigateur peut tenter de fermer une Faille en testant son {lore}. Pour chaque succès, les Investigateurs peuvent défausser une Faille dans leur espace ou d'un espace dans lequel ils se déplaceront plus tard au cours de la manche.\n\nLes Failles défaussées de cette manière ne font pas perdre à un Investigateur dans le temps et l'espace.\n\nUne Faille ne peut pas être placé dans une case contenant une autre Faille.\n\nVous pouvez vous déplacer d'une case dans la pièce.
+TokenExploreBridgeT15.text,Cette écoutille est fermée.
+EventExplainRiftsT10.button1,Continuer
+TokenGreenPersonT13.text,Le bras de cet homme a été arraché. Il y a du sang partout.
+TokenGreenPersonT13.button1,{action} Fouiller le corps
+EventSearchGreenPersonT13.text,Vous poussez le corps hors du chemin. sous le cadavre du pauvre malheureux, vous trouvez une bouée de sauvetage. Prenez l'objet.\nRetirez le <color=Cyan>pion Personnage</color> Vert.
+EventSearchGreenPersonT13.button1,Continuer
+EventPlaceBridgeT15.text,L'écoutille s'ouvre sur une cage d'escalier qui monte.\nPlacez la tuile {c:TileBridgeT16} comme indiqué.\n\nRemplacez le <color=Cyan>pion Exploration</color> par un <color=Cyan>pion Interaction</color>.\n\nL'écoutille du pont est fermée. Placez le <color=Cyan>pion Exploration</color> comme indiqué.\n\nIl y a une faille ici. Placez le <color=Cyan>pion Faille</color> comme indiqué.\n\nL'eau clapote. Placez le <color=Cyan>pion Eau</color> comme indiqué.\n\nLa pièce est plongée dans l'obscurité. Placez le <color=Cyan>pion Ténèbres</color> comme indiqué.\n\nVous pouvez entrer dans la cage d'escalier.\n
+EventPlaceBridgeT15.button1,Continuer
+TokenExploreBridgeT16.button1,{action} Ouvrir la trappe l'écoutille
+EventWaterRisesT16.button1,Continuer
+TokenExploreBridgeT16.text,Cette trappe mène au pont
+EventWaterRisesT16.text,Le niveau de l'eau ne cesse de monter.\n\nRetirez les tuiles {c:TileEngineT10} et {c:TileStorageHoldT11} et tous les pions sur ces tuiles. Tous les Investigateurs sur ces tuiles sont éliminés. Tous les monstres sur ces tuiles sont déplacés vers la tuile {c:TileSickBayT12}.
+SpawnHuntingHorrorT16.button1,Continuer
+EventExploreBridgeT16.text,Cette écoutille doit s'ouvrir sur le pont.\nL'éclairage de secours est toujours en marche ici.\nRetirez le <color=Cyan>pion Exploration</color>.\n\nÀ travers les grands hublots d'observation sous-marine, vous pouvez voir à l'exterieur des rochers et des poissons dans un océan sombre.\nLe submersible semble reposer sur le fond marin.\n\nIl y a quelques panneaux de contrôles ici. Placez le <color=Cyan>pion Fouille</color> comme indiqué.\n\nUne échelle mène à une écoutille au-dessus.\nPlacez un <color=Cyan>pion Interaction</color> comme indiqué.\n\nVous pouvez vous déplacer d'une case sur le Pont.\n\nLe niveau de l'eau monte. Retirez la tuile {c:TileSickBayT12} et tous les <color=Cyan>pions</color> sur cette tuile. Tous les Investigateurs sur ces tuiles sont éliminés. Tous les monstres sur ces tuiles sont déplacés vers la tuile {c:TileGalleyT14}.\n\nL'eau n'a pas encore atteint ce niveau.
+SpawnHuntingHorrorT16.text,Une créature vole à travers la faille dans la pièce.\nGénérez une <color=Teal>Horreur</color> Chasseresse comme indiqué.
+EventExploreBridgeT16.button1,Continuer
+TokenBridgeControlsT16.button1,{action} Examiner les panneaux de contrôles
+EventExamineBridgeControlsT16.text,Vous examinez les panneaux de contrôles. Outre les commandes de moteur et de ballast, il semble y avoir un moyen de désengager le pont du reste du submersible.\n\nRemplacez ce <color=Cyan>pion Recherche</color> par un <color=Cyan>pion Interaction</color>.
+TokenBridgeControlsT16.text,Les panneaux de contrôles semblent complexes. Vous pouvez essayer de les examiner afin de comprendre à quoi ils servent.
+EventExamineBridgeControlsT16.button1,Continuer
+TokenActivateEscapePodT16.text,Si tous les Investigateurs sont dans cet espace, vous pouvez essayer de résoudre la séquence pour activer les commandes en utilisant {observation}.
+TokenActivateEscapePodT16.button1,{action} Essayez d'activer les contrôles
+EventWaterEntersKitchenT14.button1,Continuer
+EventEscapeT16.text,La porte du pont se ferme et les pinces mécaniques s'enclenchent.
+EventEscapeT16.button1,Continuer
+EventEscape2T16.text,Vous sentez une embardée soudaine et vous perdez presque pied lorsque les pinces mécaniquent se désengagent et que le pont commence son ascension vers la surface, lentement au début, puis de plus en plus vite.
+EventEscape2T16.button1,Continuer
+TokenBridgeExitT16.text,Vous pouvez grimper à l'échelle et ouvrir la trappe au-dessus de vous.
+TokenBridgeExitT16.button1,{action} Ouvrir la trappe
+EventWaterEntersKitchenT14.text,L'eau ne cesse de monter dans les cuisines. Placez le pion Eau comme indiqué.
+EventOpenBridgeExitT16.text,La trappe est bien fermée. Testez la {strength}(2).
+EventOpenBridgeExitT16.button1,Réussite
+EventOpenBridgeExitT16.button2,Échec
+EventHatchFailT16.text,Vous ne pouvez pas bouger.
+EventHatchFailT16.button1,Continuer
+EventHatchPassT16.text,Vous ne parvenez pas à soulever la trappe. Il y a trop de pression d'eau\nau-dessus de vous. Supprimez le <color=Cyan>pion Interaction</color>.
+EventHatchPassT16.button1,Continuer
+SpawnFormlessSpawnT10.text,Un bruit terrible venant de l'arrière du navire semble annoncer l'arrivée d'une affreuse créature venue du vide. Une autre faille apparaît, et à travers elle rampe une immense monstruosité. Générez un Rejeton Informe comme indiqué.\n\n<color=Red><b>Remarque :</b></color> <b>Le Rejeton Informe n'est pas un monstre aquatique, il ne peut donc se déplacer que d'une case par action de mouvement dans les espaces inondés.</b>
+SpawnFormlessSpawnT10.button1,Continuer
+TokenSearchSideTableT14.text,Vous pouvez rechercher les bibelots sur cette table
+TokenSearchSideTableT14.button1,{action} Rechercher
+TokenExploreRopeAndAnchorT3.text,Au dessus de la porte une vieille enseigne ou on peut lire "Ancre & Corde".\nVous pouvez entendre le brouat des conversations à l'intérieurdu Pub.
+Spawn2ndDeepOneT5.text,Une deuxième créature grimpe sur le plat-bord. Générez un autre Deep One comme indiqué.
+Spawn2ndDeepOneT5.button1,Continuer
+TokenEngineRoomRiftT10.text,Cliquez sur Supprimer si les joueurs suppriment cette faille, retirer le pion Faille.
+TokenEngineRoomRiftT10.button1,Retirer
+EventRemoveRiftT10.text,Retirez ce pion de faille.
+EventRemoveRiftT10.button1,Continuer
+TokenRiftKitchenT14.text,Cliquez sur Supprimer si les joueurs suppriment cette faille, retirer le pion Faille.
+TokenRiftKitchenT14.button1,Retirer
+EventRemoveRiftKitchenT14.text,Retirez ce pion de faille.
+EventRemoveRiftKitchenT14.button1,Continuer
+TokenRiftT15.text,Cliquez sur Supprimer si les joueurs suppriment cette faille, retirer le pion Faille.
+TokenRiftT15.button1,Retirer
+TokenRiftT15.button2,Annuler
+EventRemoveRiftT15.button1,Continuer
+TokenRiftT16.text,Cliquez sur Supprimer si les joueurs suppriment cette faille, retirer le pion Faille.
+EventRemoveRiftT15.text,Supprimer le pion Faille
+TokenRiftT16.button1,Retirer
+EventRemoveRiftT16.text,Retirez le pion Faille
+EventRemoveRiftT16.button1,Continuer
+EventFinishPierT1.text,La jetée continue à gauche et à droite. Placez les <color=Cyan>pions Vue</color> comme indiqué.\n\nIl y a une sorte de petit kiosque au nord. Placez le <color=Cyan>pion Exploration</color> comme indiqué.\n\nIl y a des caisses et des barils à proximité. Placez le <color=Cyan>pion Fouille</color> comme indiqué.\n\nIl y a une petite chaloupe couverte, flottant à côté de la jetée.\nPlacez le <color=Cyan>pion Fouille</color> comme indiqué.
+EventFinishPierT1.button1,Continuer
+EventFinishT8.text,Une fois entré un silence de plomb s'installe. Toutes les personnes présentent dans la pièce, des pêcheurs le visage usé par le vent et la mer vous dévisagent mais après un certain temps les conversations reprennent.\n\nIl y a deux hommes assis sur un canapé. Placez les <color=Cyan>pions Personnage</color> Gris et Violet comme indiqué.\n\nIl y a une femme derrière le bar. Placez le <color=Cyan>pion Personnage</color> Orange comme indiqué.\n\nIl y a un homme assis sur une chaise qui parle avec le barman. Placez le <color=Cyan>pion Personnage</color> Jaune comme indiqué.\n\nVous pouvez vous déplacer d'une case dans la pièce.
+EventFinishT8.button1,Continuer
+EventExtractMonstersT16.text,Au fur et à mesure que le compartiment d'évacuation s'élève,\nune faille apparaît dans la pièce.\n\nUne grande force vous attire vers la faille. Chaque Investigateur teste sa {strength}(1) pour s'agripper et résister à l'attraction. Tous les Investigateurs qui échouent sont entraînés dans la faille et deviennent Perdus dans le temps et l'espace.\n\nTous les monstres du compartiment sont entraînés dans la faille.
+EventExtractMonstersT16.button1,Continuer
+EventInvestigatorsReturnT16.text,La faille se referme.\n\nLe compartiment continue de s'élever de plus en plus loin du\nsous-marin qui repose au fond de l'océan en dessous de vous.\n\nChaque Investigateur qui est Perdu dans le temps et l'espace a une opportunité de tenter de revenir. Retournez leurs cartes Perdus dans le temps et l'espace et suivez les instructions qui s'y trouvent.\n\nTous les investigateurs qui restent Perdus dans le temps et l'espace sont éliminés.
+EventInvestigatorsReturnT16.button1,Au moins un Investigateur a survécu
+EventInvestigatorsReturnT16.button2,Tous les Investigateurs sont éliminés
+PuzzleActivateEscapePodT16.button1,Deviner
+EventShamblerRipsDoorT10.text,Le Vagabond Dimensionnel saisit la porte étanche du compartiment et\nl'arrache de ses gonds, puis la jette sur l'Investigateur le plus proche.\nL'Investigateur le plus proche à portée subit un dégât ({agility} -1 annule).\n\n Retirez le <color=Cyan>pion Exploration</color> menant à la salle des machines.
+EventShamblerRipsDoorT10.button1,Continuer
+TokenBridgePressureDoorOpenedT16.button1,{action} Fermer la porte
+TokenBridgePressureDoorSecuredT16.text,La porte étanche est fermée et sécurisée.
+EventCloseBridgeDoorT16.text,Vous fermez la porte étanche en prenant soin de bien là verrouillée.\n\nSi le Rejeton Informe essaie d'entrer sur le pont, il traite cette porte comme une barrière. Il lance des dés égaux à sa puissance (4) et s'il obtient 2 succès, il pousse la porte et entre dans la cage d'escalier, sinon le Rejeton Informe ne bouge pas.\n\nLes autres monstres ne sont pas assez forts pour franchir le sas étanche.
+EventCloseBridgeDoorT16.button1,Continuer
+TokenBridgePressureDoorSecuredT16.button1,{action} Ouvrir la porte
+EventOpenPressureDoorBridgeT16.text,Vous faites tourner la roue pour déverrouiller les verroux afin d'ouvrir la porte étanche.
+EventOpenPressureDoorBridgeT16.button1,Continuer
+TokenBridgePressureDoorOpenedT16.text,Vous pouvez fermer la porte étanche.
+TokenRemoveHarpoonT14.button1,{action} Retirer le harpon (nécessite une clé)
+EventSoakedT8.text,Il remarque que vous êtes trempée.\n<i>Belle nuit pour une baignade, hein ?</i>\nIl se retourne vers son ami et part dans un rire gras.
+EventSoakedT8.button1,Continuer
+EventReadPaperT9.button1,Réussite
+EventReadPaperT9.button2,Échec
+EventAskJerimiahWhatHesDoingT5.text,Le vieil homme vous regarde de côté, puis crie.\n<i>Qu'est-ce que j'ai l'air de faire !\nMaintenant, descendez de mon bateau et fichez moi la paix !</i>
+TokenJeremiahWheelhouseT5.text,Jérémie regarde la mer, une expression lointaine dans les yeux.
+TokenJeremiahWheelhouseT5.button1,Continuer
+EventSearchTrinketsT14.text,Il y a une grande quantité d'objets sur la table, il y a une multitude de tubes en bois.\nÀ l'intérieur de l'un d'eux, vous trouvez un parchemin.\nGagnez la {c:QItemStormSpellT14}. Supprimez le <color=Cyan>pion Recherche</color>.
+EventSearchTrinketsT14.button1,Continuer
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
