@@ -1,0 +1,469 @@
+.,Czech
+quest.name,Ďáblové z moře
+quest.description,Během Vaší dovolené v malém pobřežním městečku se zapletete do případu místní pohřešované osoby.
+UISplashScreenText.uitext,"Vaše nedávné setkání v lese poblíž Arkhamu vás vyčerpalo a vaše mysl byla neklidná.\n\nPo hodinách jízdy pod zataženou oblohou na hrbolatých venkovských cestách dorazíte do Kingsportu a doufáte v zasloužený odpočinek.\n\nJe to tady - klidné a tiché. Ubytujete se v malém hotelu na Water Street. \n\nRozhodnete se prozkoumat nedaleké nábřeží. Možná vám sklenička v místní hospodě pomůže uklidnit nervy, abyste mohli jít v klidu spát.\n\nZítra byste mohli vyhledat svého strýce Bobbyho Torka, který zde provozuje rybářskou loď."
+EventIntro.button1,Pokračovat
+UISplashScreenContinue.uitext,Pokračovat...
+EventPlaceSightLobbyT9.text,"Chodba vede do hotelové haly. Umístěte žeton Zajímavosti, jak je uvedeno.\n\nMůžete se na obrazy podívat blíže. Umístěte žetony Prohledat, jak je uvedeno."
+TokenSightLobbyT9.button1,Pokračovat
+EventHotelIntroT9.button1,Pokračovat
+TokenSightLobbyT9.text,"V tomto směru foyer navazuje na hotelovou halu. Právě jste odtamtud přišli a nemusíte se tam vracet.\n\nOdstraňte žeton Zajímavosti."
+UILoseGameText.uitext,Nikdy se nenašla žádná stopa po vyšetřovatelích.
+quest.authors,"Scénář pro 2 až 5 vyšetřovatelů\n\nAutor: Jim Lederer\njlederer2@hotmail.com\n\nVyžaduje rozšíření <b>Děsivé výpravy</b>\n\nČeský překlad: LabBrab"
+UISplashScreenContinue.button1,Pokračovat
+EventHotelIntroT9.text,"Opouštíte své pokoje a vydáváte se chodbou a vestibulem do hotelového foyer.\n\nUmístěte vyšetřovatele, jak je znázorněno.\n\nVyšetřovatelé nezačínají s žádným žetonem {clue}.\n\nJe tam starý muž v křesle, oblečený v business oblečení. Umístěte bílý žeton osoby podle obrázku."
+TokenSearchShelfT12.text,Na této poličce jsou různé chirurgické nástroje a lahvičky s léky.
+TokenSearchShelfT12.button1,{action} Prohledat
+EventSearchShelfT12.text,"Obdržíte běžný předmět {c:QItemSedativesT12}.\nOdstraňte tento žeton Prohledat"
+EventSearchShelfT12.button1,Pokračovat
+TokenSearchTableT12.text,Na stole je několik věcí. Vypadá to, že někdo ve spěchu hledal zdravotnické potřeby.
+UIWinScreenText.uitext,"Prostor můstku se houpe na hladině moře...\n\nVylezte po žebříku a otevřete poklop nad hlavou. Ranní slunce je oslepující. Čerstvý mořský vánek nikdy nevoněl tak dobře.\n\nPřemýšlíte nad nočními můrami, které jste viděli.\n\nMožná se vrátíte, abyste získali zbytek pokladu.\n\n<b>Tohle vyšetřování je úspěšné.</b>"
+UIEndGameContinue.uitext,Konec hry
+TokenSearchTableT12.button1,{action} Prohledat
+EventGiveBandagesT12.text,"Obdržíte běžný předmět{c:QItemBandagesT12}.\n\nOdstraňte tento žeton Prohledat"
+EventGiveBandagesT12.button1,Pokračovat
+EventInvestEliminatedPressed.button1,Pokračovat
+quest.authors_short,Jim Lederer
+quest.synopsys,Vyřešte záhadu v malém pobřežním městečku.
+EventPlaceTileHotelFoyerT9.button1,Pokračovat
+EventPlaceSightLobbyT9.button1,Pokračovat
+EventPlaceTileHotelFoyerT9.text,"Umístěte {c:TileHotelFoyerT9}. Toto je foyer vašeho hotelu na Water Street 607.\n\nDlážděná podlaha vypadá, jako by nebyla nějakou dobu umytá. Vzduch páchne zatuchlinou. Dvoje dveře vedou do kanceláří, kde je hostům vstup zakázán. Na protější stěně je několik maleb zobrazujících lodě na moři. Umístěte žetony zdí (s obrazy) dle instrukcí."
+EventPlacePaperAndExploreT9.text,"Na malém stolku leží noviny. Umístěte žeton Prohledat, jak je uvedeno.\n\nPoblíž dveří se o zeď opírá otlučený kufr. Umístěte žeton Prohledat blízko dveří, jak je uvedeno.\n\nHotel můžete opustit dveřmi. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nV tomto scénáři jsou určitá speciální pravidla. Nezapomeňte, že pokud zapomenete podrobnosti, můžete si je znovu přečíst pomocí tlačítka Deník."
+EventPlacePaperAndExploreT9.button1,Pokračovat
+TokenSearchPainting1T9.text,Obraz vyobrazuje loď, která najela na mělčinu.
+TokenSearchPainting1T9.button1,{action} Prohlédnout si malbu
+TokenSearchPainting2T9.text,Tento obraz zobrazuje loď v bouři.
+TokenPainting2T9.button1,Pokračovat
+TokenSearchNewspaperT9.text,Mrknete do novin. Věnují se informacím o místním dění a rybářském průmyslu.
+TokenSearchNewspaperT9.button1,{action} Přečíst si noviny
+EventReadPaperT9.text, Otestujte svou {observation}(2).
+EventNewspaperPassT9.text,"Na několika stránkách jste si všimli článku, který uvádí, že místní rybář Bobby Tork je stále nezvěstný poté, co se před týdnem nevrátil z rybářského výletu.\n\nOdstraňte tento žeton Prohledat a získejte jednu {clue}."
+EventNewspaperPassT9.button1,Pokračovat
+EventNewspaperFailT9.text,Nevidíte nic zvlášť zajímavého.
+EventNewspaperFailT9.button1,Pokračovat
+TokenExploreExitFoyerT9.text,Toto je východ z foyer.
+TokenExploreExitFoyerT9.button1,{action} Odejít z foyer
+EventPlaceMarket.text,"Silný zápach ryb a moře na vás útočí otevřenými dveřmi.\n\nOdstraňte tento žeton Prozkoumat.\n\nUmístěte {c:TileMarketT6}.\n\nNa tomto místním trhu je několik malých zanedbaných stánků . Během dne se pravděpodobně používají k prodeji ryb a místních výrobků. Takto pozdě v noci jsou opuštěné. Slabě hvízdá tenký vánek.\n\nJe tu východ na sever. Umístěte žeton Zajímavosti, jak je uvedeno.\n\nNa stole leží několik starých předmětů. Umístěte žeton Prohledat, jak je uvedeno.\n\nMůžete se přesunout o 1 pole do oblasti."
+EventPlaceMarket.button1,Pokračovat
+TokenSearchSuitcaseT9.text,O stěnu se opírá starý kufr.
+TokenSearchSuitcaseT9.button1,{action} Prozkoumejte zavazadla
+TokenSearchPainting2T9.button1,{action} Prozkoumejte malby
+EventSearchPainting1T9.text,"V této scéně stojí maják na útesu s výhledem na moře. Zdá se, že z majáku nevychází žádné světlo. Nebe je červené a vzduch je plný mraků a mlhy. Nedaleko na skalách je ztroskotaná velká velrybářská loď se třemi stěžněmi, přičemž jeden stěžeň se zhroutil a posádka se snaží spustit záchranný člun.\n\nOdstraňte tento žeton. Vezměte si jednu kartu strachu lícem dolů (lze předejít úspěšným hodem {will}) a získejte jednu {clue}."
+EventSearchPainting1T9.button1,Pokračovat
+EventSearchPainting2T9.button1,Pokračovat
+EventSearchLuggageT9.button1,Pokračovat
+EventSearchPainting2T9.text,"V této scéně se rybářská loď zmítá v zuřící bouři. Při bližším prozkoumání můžete rozeznat dva z posádky, kteří byli vyplaveni přes palubu, jak zápasí ve vlnách. Zbytek posádky je na palubě a pomocí harpun zadržuje podivně vypadající humanoidní postavu.\n\nOdstraňte tento žeton hledání.  Obdržíte jednu kartu strachu lícem dolů (lze předejít úspěšným hodem {will}) a obdržíte jednu {clue}."
+EventSearchLuggageT9.text,"Tento kufr je prázdný a soudě podle množství prachu na něm se zdá, že byl opuštěný. Můžete si ho vzít s sebou; možná ho použijete k nošení suvenýrů.\n\nZískejte obyčejný předmět {c:QItemSturdyLuggageT9} a odstraňte tento žeton Prohledat."
+TokenSearchTableT6.text,Na tomto stole je několik malých krabic a předmětů.
+TokenSearchTableT6.button1,{action} Prohledat stůl
+EventSearchTableT6.text,Prohledáváte stůl.  Otestuj dovednost {observation}(1).
+EventSearchTableT6.button1,Úspěch
+EventSearchTableT6.button2,Neúspěch
+EventSearchTableFailT6.text,Nenajdete nic kromě starého kusu páchnoucí ryby.
+EventSearchTableFailT6.button1,Pokračovat
+EventSearchTablePassT6.text,Najdete starý rezavý nůž.  Obdržíte běžný předmět {c:QItemKnifeT6}. Odhoďte tento žeton  Prohledat.
+EventSearchTablePassT6.button1,Pokračovat
+TokenOldManT9.button1,{action} Co mi můžete o sobě povědět?
+EventAskManAboutHimselfPassT9.text,|||Muž se pomalu postaví, usměje se a podá vám ruku.  "Oh, jsem jen prodavač. Fred Wein se jmenuje. Prodávám zásoby do hotelů a restaurací. Obávám se, že v KingsPort nemám moc štěstí. Tohle město je mrtvé.\n\nNo, musím pokračovat dál."\n\nObdržíte 1 stopu {clue}.  Odstraňte tento žeton osoby.|||
+EventAskManAboutHimselfT9.text,Test {influence}(1)
+EventAskManAboutHimselfT9.button1,Úspěch
+EventAskManAboutHimselfT9.button2,Neúspěch
+EventAskManAboutHimselfPassT9.button1,Pokračovat
+EventAskManAboutHimselfFailT9.text,Muž se na vás podívá, zavrtí hlavou a pak se zase podívá na podlahu.
+EventAskManAboutHimselfFailT9.button1,Pokračovat
+TokenOldManT9.text,Starý muž oblečený v obchodním oblečení, sedí v křesle a dívá se dolů na podlahu.
+TokenSightPierT6.text,"Tento východ z trhu vede na nábřeží. Je tam stará otlučená promenáda a přístup do vody.\n\nOdstraňte tento žeton a umístěte {c:TilePierT1} dle instrukcí.\n\nRybí zápach je teď silnější, smíchaný s vůní moře.  Chloupky na vaší pokožce vám štípe lehký vánek. Pár olejových lamp osvětluje molo."
+TokenSightPierT6.button1,Pokračovat
+TokenSightDock2T1.text,"Dřevěný chodník pokračuje na západ.\n\nOdstraňte tento žeton.\n\nUmístěte {c:TileDock2T3} dle instrukcí.\n\nNa severu je pláž se zchátralou loděnicí.\nUmístěte {c:TileBeachT2} dle instrukcí.\nUmístěte žeton Prohledat dle instrukcí.\n\nNa jihu spatříte dveře.\nUmístěte žeton Prozkoumat dle instrukcí."
+TokenSightDock2T1.button1,Pokračovat
+TokenSightDock1T1.text,|||Dok pokračuje na východ. Odstraňte tento žeton Zajímavosti.\nUmístěte {c:TileDock1T4} dle instrukcí.\n\nKotví zde rybářská loď. Je rozmlácená, ale stále vypadá jako plavbyschopná. Na přídi lodi je namalováno „Moje stará Dáma“.\n\nUmístěte {c:TileBoatT5} dle instrukcí.\n\nNa lodi je muž a svíjí nějaké lano.  Umístěte modrý žeton osoby, jak je uvedeno. \n\nNa jihu se nacházejí dveře. Cedule nad dveřmi hlásá „Neilův krámek kuriozit“. Umístěte žeton Prozkoumat, jak je uvedeno.|||
+TokenSightDock1T1.button1,Pokračovat
+TokenExploreShackT1.text,|||Tato sešlá chatrč má zrezivělý nápis „Samova chajda mňamek“. Na noc je zavřeno.\n\nZkoušíte dveře, ale jsou zamčené.|||
+TokenExploreShackT1.button1,{action} Vloupat se do chatrče
+TokenSearchBarrelsT1.button1,{action} Prohledat
+EventSearchBarrelsT1Pass.button1,Pokračovat
+EventSearchBarrelsT1.text,Podíváte se, jestli je tady něco užitečného.  Test {observation}(1).
+EventSearchBarrelsT1.button1,Úspěch
+EventSearchBarrelsT1.button2,Neúspěch
+TokenExploreRopeAndAnchorT3.button1,{action} Vstoupit
+TokenSearchBarrelsT1.text,Na těchto sudech jsou nějaké předměty.
+EventSearchBarrelsT1Fail.text,Nenajdete nic zajímavého. Odeberte tento žeton Prohledat.
+EventSearchBarrelsT1Pass.text,Nalezli jste běžný předmět {c:QItemBrassKnucklesT1}. Získejte tento předmět a odstraňte žeton Prohledat.
+EventSearchBarrelsT1Fail.button1,Pokračovat
+TokenExploreNeilsCuriosityShopT4.text,Toto jsou dveře do "Neilova krámku kuriozit". Přes škvíry kolem dveří proniká světlo.
+TokenExploreNeilsCuriosityShopT4.button1,{action} Vstoupit do krámku
+EventExploreRopeAndAnchorT8.text,"Otevřeli jste dveře.  Odtraňte žeton průzkumu.\n\nVidíte hospodu, plnou kouře a zápachu tabáku zažraného hluboko do malby.  Uprostřed místnosti je starý kulečníkový stůl.\n\nUmístěte {c:TileRopeAndAnchorT8} dle instrukcí.\nUmístěte žeton dveří na místo, kde byl žeton Prozkoumat.\n\nUmístěte žeton zdi dle instrukcí"
+TokenSearchRowboatT1.button1,{action} Prohledat loď
+EventSearchBoatT1.text,Snažíte se nahlédnout dovnitř veslice, aniž byste spadli do vody.  Otestujte {agility} a zaznamenejte si počet dosažených úspěchů.
+TokenSearchRowboatT1.text,Pod ošlehanou plachtou je stará veslice.
+EventSearchBoatT1.button1,Pokračovt
+EventSearchBoatT1.button2,Neúspěch
+EventSearchBoatFailT1.text,S hlasitým šplouchnutím spadnete do vody. Vylezeš ven promočený, zimou drkotáš zuby.
+EventSearchBoatFailT1.button1,Pokračovat
+EventSearchBoatPassT1.text,"Podaří se vám sundat okraj krytu, dostat se do lodi a rozhlédnout se.  Odtraňte tento žeton Prohledat.\n\nObdržíte běžný předmět {c:QItemFlareGunT1}."
+EventSearchBoatPassT1.button1,Pokračovat
+EventBreakIntoShackT1.text,Pokusíte se vypáčit dveře.  Otestujte svou {strength} a zaznamenjte počet svých úspěchů.
+EventBreakIntoShackT1.button1,Pokračovat
+EventBreakIntoShackT1.button2,Úspěch
+EventExploreShackPassT1.text,"Narazíte na dveře chatrče a ty se s bouchnutím otevřou. Dostanete se dovnitř. Odstraňte tento žeton Průzkumu a umístěte svého vyšetřovatele do chatrče.\n\nRychle hledáš. Není tu toho moc užitečného – vypadá to, že tato chatrč slouží k podávání jídla během dne.\n\nPodaří se vám najít {c:QItemHolyCrossT1} připojený k sadě růžencových korálků – získejte tento předmět."
+EventExploreShackPassT1.button1,Pokračovat
+EventExploreShackFailT1.text,"Přiložíš rameno ke dveřím, ale jen se odrazíš. Bohužel se zdá, že je to jedna z mála věcí v tomto městě, které jsou v dobrém stavu.\n\nObáváte se, že hluk, který vydáváte, může přitáhnout nějakou nechtěnou pozornost."
+EventExploreShackFailT1.button1,Pokračovat
+TokenJerimiahDeckT5.button1,{action} Připraveni odplout (Všichni vyšetřovatelé na palubě)
+TokenJerimiahDeckT5.button2,{action} Zeptejte se, zda je loď k pronájmu
+TokenJerimiahDeckT5.button3,{action} Zeptejte se muže, co dělá
+EventAskJerimiahWhatHesDoingT5.button1,Pokračovat
+TokenSearchRuinedBoathouseT2.text,"Začnete se prohrabávat v rozbořené chajdě, ale když zvednete starý kus prkna, s úlekem objevíte starého flákače, který se probudí a vyleká se stejně jako vy.\n\nUmístěte žeton zelené osoby a odstraňte tento žeton Prohledat"
+TokenSearchRuinedBoathouseT2.button1,Pokračovat
+TokenDrunkBumT2.text,Starý bezďák
+TokenDrunkBumT2.button1,{action} Promluvte si se starým vandrákem
+EventTalkOldBumT2.text,|||"Co je, co chceš? Já nic neprovedl."\n\nStarý muž je oblečený do špinavých šatů a strašně páchne, hůř než moře a mrtvé ryby, které jsou na pláži.\n\nSnažíte se starého muže uklidnit a zeptáte se ho, o čem to mluví.  Test {influence}(2).|||
+EventTalkOldBumT2.button1,Úspěch
+EventTalkOldBumT2.button2,Neúspěch
+EventTalkBumFailT2.text,Zdá se, že starý muž je stále více rozrušený. Začne blábolit, ale nic nedává smysl.
+EventTalkBumFailT2.button1,Pokračovat
+EventTalkBumPassT2.text,|||Podaří se vám starce uklidnit a zeptat se ho, proč je tak rozrušený.\n\n"Myslel jsem, že si myslíš, že jsem ublížil starému Torkovi. Jak jsem jim řekl, viděl jsem, jak minulé úterý odjížděl a od té doby jsem ho neviděl. Jediné, co jsem viděl, byla před pár dny světla, venku na moři, směrem ke starému majáku. Byla zelená a blikala. Ale bylo to jenom jednou během té noci. Pak už se světla nevrátila, alespoň ne tak, jak jsem je viděl. Teď mě nech být."\n\nStarý muž se převalí a usne.\n\nObdržíš 2 žetony stop {clue}.  Odtraň tento žeton osoby.|||
+EventTalkBumPassT2.button1,Pokračovat
+EventEnterNeilsT4.text,|||Dveře se otevřou a objeví se velká místnost plná všeho druhu harampádí. Odeberte tento žeton Prozkoumat.\n\nUmístěte {c:TileNeilsCuriosityShopT7} dle instrukcí.\n\n  Všude se hromadí krabice a police sténají pod tíhou drobností, hrnců a pánví a dalších pomůcek.\n\nKdyž vejdete do obchodu, pozdraví vás starý muž.  Umístěte žeton červené osoby\n\n"Vítejte u mě," řekne chraplavým hlasem.  "Rozhlédněte se! Pokud uvidíte něco, co se vám líbí, můžeme diskutovat o cenách."\n\nMuž se posadí a upřeně vás sleduje.\n\nMůžete se přesunout do obchodu.\n\nRozhlédnete se po obchodě. Nějakou dobu potrvá, než v tom všem odpadu najdete něco užitečného.  Umístěte žeton Prohledat dle instrukcí.|||
+EventEnterNeilsT4.button1,Pokračovat
+TokenNeilT7.text,Neil, obchodník, se na vás znepokojeně dívá.
+TokenNeilT7.button1,Pokračovat
+TokenSearchNeilsShopT7.text,Prohrabujete se v regálech.  Otestujte svou {observation} a zaznamenejte si počet dosažených úspěchů.
+TokenSearchNeilsShopT7.button1,Pokračovat
+TokenSearchNeilsShopT7.button2,Neúspěch
+EventSearchNeilsFailT7.button1,Pokračovat
+EventSearchNeilsPassT7.text,|||Narazíte na poměrně unikátně vyhlížející sextant. Vypadá velmi staře a je pokryt podivnými řezbami.\n\nOdstraňte tento žeton Prohledat.\n\nDoneseš ho Neilovi.\n\n"Ach, ano, starý Tork to přinesl zpět z jednoho ze svých ponorů u majáku. Nabídnul jsem mu dobrý obchod, splatil tak dluh, který mi dlužil. Je to docela neobvyklý kousek."\n\nSnažíte se dohodnout na ceně {influence}(1).|||
+EventSearchNeilsFailT7.text,Zatím jsi nenašel nic, co by stálo za to.
+EventSearchNeilsPassT7.button1,Úspěch
+EventSearchNeilsPassT7.button2,Neúspěch
+EventNegotiateWithNeilFailT7.text,|||"Je mi líto, ale nemohu se s tím rozloučit za méně než padesát dolarů,“ říká Neil.\n\nBohužel si to nemůžete dovolit. Položíš ho zpátky na polici.|||
+EventNegotiateWithNeilFailT7.button1,Pokračovat
+EventNegotiateWithNeilPassT7.text,|||"Dobře, to je dohoda!", říká Neil, když procházíte svůj balík peněz. Jen doufáte, že tahle věc stojí za to.  Obdržíte {c:QItemMysticSextantT7}.|||
+EventNegotiateWithNeilPassT7.button1,Pokračovat
+EventExploreRopeAndAnchorT8.button1,Pokračovat
+TokenBartenderT8.text,|||Barmanka je atraktivní zrzka. "Co ti můžu přinést?" zeptá se. Objednáte si drink.|||
+TokenBartenderT8.button1,{action} Zeptejte se, co se děje ve městě
+EventAskBartenderAboutFishermanT8.text,Nic moc, v tomto ročním období. Teď je příliš chladno. Momentálně se tady všichni bojí o starého pana Torka. Nebyl už týden spatřen. Starý McGinty by mohl vědět víc - je to muž s šedým plnovousem, který sedí támhle na gauči.
+EventAskBartenderAboutFishermanT8.button1,Pokračovat
+TokenGreyManT8.text,Tento starý muž s šedým plnovousem si povídá a pije se svým přítelem, který má kolem krku fialový šátek.
+TokenGreyManT8.button1,{action} Zeptejte se na zmizelého rybáře
+EventAskMcGintyT8.text,|||"Kdo vůbec jsi?" odpoví stařec.  {influence}(2).|||
+EventAskMcGintyT8.button1,Úspěch
+EventAskMcGintyT8.button2,Neúspěch
+EventMcGintyFailT8.text,Představte se. McGinty si odplivne a ostře se otočí zpátky ke svému příteli a dál vás ignoruje.
+EventMcGintyFailT8.button1,Pokračovat
+EventMcGintyPassT8.text,|||Jsem Jack McGinty," říká starý muž. „Tork je dobrá duše, doufám, že bude v pořádku."\n\nNapije se z nápoje.\n\n"Varoval jsem ho, aby se držel dál od těch skal poblíž majáku, to jsem udělal, ale byl si jistý, že se tam objevila Mystral.|||
+EventMcGintyPassT8.button1,Zeptejte se na Mystral
+EventMcGintyMystral.text,|||Ty nejsi z těchto končin, chlape. Mystral byla španělská loď s pokladem, která se ztratila na zpáteční cestě z Mexika. Byla zajata Brity a pak se zde za starých časů potopila."\n\nDá si další drink.\n\n"Starý Tork si byl jistý, že zahlédl nějakou její část nahoře poblíž majáku, když byla voda před pár týdny opravdu klidná, a řekl, že se tam zajede znovu podívat. Teď je pryč i on. Jakmile se Tork vrátí, on a starý Jeremiáš odjedou "Starou dámou" s vybavením, aby se potopili k vraku.|||
+EventMcGintyMystral.button1,Zeptejte se, kde můžete najít starého Jeremiáše
+EventMcGintyJeremiahT8.text,|||"No, bude tam, kde obvykle je, pracovat na své lodi, samozřejmě kotví přímo u chatrče s občerstvením na molu."\n\nObdržíte dva žetony stop {clue}.|||
+EventMcGintyJeremiahT8.button1,Pokračovat
+TokenPurpleManT8.text,Tento starý muž nosí fialový šátek a obvyklou námořnickou kombinézu.
+TokenPurpleManT8.button1,{action} Zeptejte se na ztraceného rybáře
+EventPurpleManAskT8.text,|||"Nevím nic o 'Starém Torkovi', kromě toho, že mi dluží peníze - a to nejsem jediný!"\n\nSdílí pohled se svým vousatým přítelem.|||
+EventPurpleManAskT8.button1,Pokračovat
+TokenYellowManT8.text,Tento starý muž nosí přes kombinézu žlutý návlek.
+TokenYellowManT8.button1,{action} Zeptejte se na Torka
+EventYellowManAskT8.text,|||"Je pryč asi tak týden", odpoví.\n\n"Řekl jsem mu, aby se držel dál od Mystral. V moři jsou divné věci, které nechtějí, aby ta loď byla nalezena. Ale on neposlouchal."\n\nPostaví se na nohy.\n\n"No nic, odcházím. Je třeba se taky někdy vyspat."\n\nOdejde z hospody.\n\nOdtraňte žeton žluté osoby.\n\nObdržíte 1 stopu {clue}.|||
+EventYellowManAskT8.button1,Pokračovat
+EventHireBoatT5.text,|||No, líbí se mi střih tvého kabátu!" zvolal starý muž.  "Jsem Jeremiáš Olafsson a tohle je Stará Dáma.".\n\nUdělá rozmáchlé gesto paží směrem k člunu. Loď očividně zažila i lepší časy.\n\n„A co máš na mysli?"|||
+EventHireBoatT5.button1,Odpovíte, že chcete hledat svého strýce a Mystral
+EventJeremiahSearchMystralT5.text,|||"No, to by bylo dost nebezpečné, kvůli těm skaliskům," říká. "Kolik máš peněz?"\n\nOtestujte {influence}(2).|||
+EventJeremiahSearchMystralT5.button1,Úspěch
+EventJeremiahSearchMystralT5.button2,neúspěch
+EventHireBoatPassT5.text,|||"No, to je jiná," říká. "Odjedeme dnes večer.  Pobřežní stráž říká, že tato oblast je zakázaná kvůli skaliskům, takže nemůžeme dovolit, aby nás tam někdo viděl. Řekněte až budete připraveni vyplout."|||
+EventHireBoatPassT5.button1,Připraveni (<i>Všichni vyšetřovatelé jsou na palubě</i>)
+EventHireBoatPassT5.button2,Zatím nejsme připraveni
+EventNotReadyT5.text,|||"Dobře, budu tady na tebe čekat,“ říká Jeremiáš.|||
+EventNotReadyT5.button1,Pokračovat
+EventReadyToSetSailT5.text,|||"Dobře, tak mi pomozte odhodit tahle lana," říká Jeremiáš.\n\nJeremiáš se přesune do kormidelny.  Přesuňte modrý žeton osoby podle obrázku. Dieselový motor chvíli škytá, pak zakašle a nastartuje. Jeremiáš nastartuje a Stará Dáma se odtrhne od mola.\n\nPobřeží se brzy ztratí z dohledu. Noc je černočerná, díky mrakům je vidět jen málo měsíčního svitu a málo hvězd.\n\nOdstraňte ze stolu všechny žetony a dlaždice, krom této {c:TileBoatT5}.|||
+EventReadyToSetSailT5.button1,Pokračovat
+EventHireBoatFailT5.text,|||"Budeš to muset udělat lépe," říká.|||
+EventHireBoatFailT5.button1,Pokračovat
+EventBoatArrivesT5.text,"Po několika hodinách cesty loď dorazí do blízkosti majáku.\n\nProhlížíte si vodu déle než hodinu, zatímco Jeremiáš manévruje s člunem tam a zpět v jakémsi vyhledávacím vzoru."
+EventBoatArrivesT5.button1,Pokračovat
+TokenJerimiahDeckT5.text,Starý muž je zaneprázdněn prací na své lodi.
+EventReadyToDiveT5.text,|||„Tohle bude stejně dobré místo, jak to tak vypadá,“ říká Jeremiáš.\n\n"Takže, kdo z vás se bude potápět?"\n(Vyberte si jednoho vyšetřovatele, který si oblékne potápěčský oblek)\n\nJeremiáš spustí starodávně vypadající vzduchový kompresor, který se probudí k životu a pomůže vám s potápěčským oblekem. Od kompresoru k helmě vede gumová vzduchová hadice. Rezavě vyhlížející ocelové lano vede od desky na zadní straně obleku k navijáku. Pomůže vám připoutat těžký opasek a zatížené boty. Sotva se můžeš hýbat.\n\n(Tento vyšetřovatel obdrží běžný předmět {c:QItemDiversHelmetT5})\n\nPokud mají vyšetřovatelé nůž, potápěč si ho může vzít.\n\n"Teď se postarej o tuhle hadici," říká Jeremiáš, "a zatáhni jednou za lanko, aby se víc uvolnilo, dvakrát, aby ses vrátil nahoru, a ještě mnohokrát, když budeš mít potíže."\n\nUmístěte žeton Interakce dle instrukce.  Tohle je naviják.  (Umístěte sem vyšetřovatele, aby obsluhoval naviják)\n\nJeremiáš pomáhá potápěči vylézt přes okraj a sestoupit po žebříku do vody, zatímco vy se staráte o kabel.\n\n(Přesuňte figurku potápěčského vyšetřovatele na stůl vedle dlaždice s člunem)\n"Uvolni hadici," křičí Jeremiáš a vy spouštíte svého přítele do moře.|||
+EventReadyToDiveT5.button1,Pokračovat
+EventFoundCapT5.button1,Pokračovat
+EventFoundCapT5.text,|||Najednou spatříte něco, co se převaluje ve vlnách.\n\n"Na levoboku! Něco vidím!", zavoláte a Jeremiáš spustí motor na volnoběh.\n\nPopadnete lodní hák a vylovíte předmět z vody.  Jeden z vyšetřovatelů obdrží běžný předmět {c:QItemCaptainsHatT5}.\n\n"Ano, tohle je kšiltovka starého Torka," říká Jeremiáš, "a vypadá to, že měl nějaké potíže."  Jeremiáš ukáže na velkou krvavou skvrnu zezadu na čepici.\n\nVyšetřovatel s nejmenším strachem si vezme jednu kartu Strachu lícem dolů (lze předejít úspěšným hodem {will}).|||
+EventGoingDownT5.text,"(Pod hladinou)\n\nSestoupíte do inkoustové temnoty. Nevidíte nic, dokonce ani své vlastní tělo.\n\nVezměte si jednu kartu strachu (lze předejít úspěšným hodem {will}-1).\n\nNezapomeň zapnout baterku připojenou k obleku, jak ti ukázal Jeremiáš.\n\nSvětlo nemá téměř žádný účinek, kromě případů, kdy ho namíříte na svůj oblek. Namíříte dolů a jediné, co vidíte, jsou vaše nohy visící nad temnotou. Všechno je tiché, kromě vašeho dýchání a hluku bublin, které se uvolňují z vašeho regulátoru.\n\nObdržíš jednu kartu strachu (lze předejít úspěšným hodem {will}-1).\n\nPokračujete v sestupu."
+EventGoingDownT5.button1,Pokračovat
+EventTouchdownT5.text,|||(Zpátky na palubě Staré Dámy)\n\nKabel se uvolní. Potápěč musel dosáhnout dna. Vyměníte si tiché pohledy s Jeremiášem. "Ano, teď budeme čekat," říká.|||
+EventTouchdownT5.button1,Pokračovat
+EventTouchdownT17.text,"(Pod hladinou)\n\nNajednou, bez varování, vaše nohy narazí na dno. Je tam vrstva bahna, ale je hluboká jen pár centimetrů.\n\nHrajete si s baterkou. Zkoušíte svítit všemi směry kolem sebe. Nic než tma.\n\nPotápěč obdrží jednu kartu strachu lícem dolů (lze předejít úspěšným hodem {will}).\n\nPočkat...tam...tím směrem zahlédneš něco ne tak tmavého...\n\nVydal ses tím směrem, vytrhl své zatížené boty z bahna, jeden krok, pak další."
+EventTouchdownT17.button1,Pokračovat
+EventWreckT17.text,"Dostanete se k vraku a těžce se vysoukáte na palubu. Je překvapivě neporušený.  Umístěte {c:TileWreckT17} dle instrukcí.  Toto je vrak Mystral. Umístěte svou figurku vyšetřovatele, jak je uvedeno.\n\nVšude se hromadí zbytky stěžňů, děl a dřevěných prken. Umístěte žetony Prohledat, jak je uvedeno."
+EventWreckT17.button1,Pokračovat
+TokenWreckage2T17.text,Tady na palubě může být něco pod stěžněm.
+TokenWreckage2T17.button1,{action} Pokuste se posunout stěžeň z cesty
+TokenWreckage1T17.text,Hromada prken a další trosky blokují přístup k poklopu.
+TokenWreckage1T17.button1,{action} Odblokujte poklop abyste ho mohl otevřít
+EventClearHatchT17.text,Pokusíte se posunout prkna a uvolnit poklop.  Otestujte svou {strength} a zaznamenjte svůj úspěch.
+EventClearHatchT17.button1,Pokračovat
+EventClearHatchT17.button2,Neúspěch
+EventMoveMastT17.text,Zapřete se, snažíte se najít pozici, kde můžete získat nějakou páku, a pak vší silou zvednete stěžeň.  Otestujte {strength}(1).
+EventMoveMastT17.button1,Úspěch
+EventMoveMastT17.button2,Neúspěch
+EventMoveMastFailT17.text,Trochu posunete stožár, ale nemáte dostatečnou páku. Budete muset změnit polohu a zkusit to znovu.
+EventMoveMastFailT17.button1,Pokračovat
+EventMoveMastPassT17.text,S námahou chroptíte a namáháte se, ale podaří se vám posunout stěžeň na stranu a pak ho odhodit. Pod ním najdete jen staré boty. Zahoďte tento žeton Prohledat.
+EventMoveMastPassT17.button1,Pokračovat
+EventClearHatchFailT17.text,Podaří se vám trochu posunout prkna, ale stále nemůžete otevřít poklop.
+EventClearHatchFailT17.button1,Pokračovat
+EventClearHatchPassT17.text,"S obrovským úsilím odstraníte poslední prkna, která blokovala poklop.\n\nOtevřete poklop.\n\nOdstraňte tento žeton Prohledat a umístěte žeton Tajné chodby."
+EventClearHatchPassT17.button1,Pokračovat
+TokenTrapdoorT17.text,Tento poklop vede do nákladového prostoru.
+TokenTrapdoorT17.button1,{action} Sestup do nákladového prostoru
+EventDeepOnesAttackT5.text,"(Na palubě Staré Dámy)\n\nDo lanka se vrátí napětí, takže umožníte navijáku otáčet se a uvolnit. To je dobré znamení, alespoň se potápěč pohybuje.\n\nZa vámi se ozve šplouchání."
+EventDeepOnesAttackT5.button1,Pokračovat
+SpawnDeepOneT5.button1,Pokračovat
+EventEnterHoldT17.text,"Scházíte dolů do podpalubí. Dřevěné schody, slabé po desetiletí hniloby, se pod vámi zničeho nic zhroutí. Snažíte se, aby se vaše hadice nezachytila ​​o okraj poklopu. Spadnete do nákladového prostoru.  \n\nOdstraňte svého vyšetřovatele ze stolu.\n\nOtetsujte svou {agility}(1)."
+SpawnDeepOneT5.text,|||Podivné stvoření, kříženec mezi mužem a rybou, se vyšplhá přes okraj na loď. Vyložte monstrum "HLUBINNÝ", jak je uvedeno.  "Toto plavidlo je naše!!!" zakvává stvoření\n\nVyšetřovatelé na palubě Staré dámy mohou provést dvě akce a poté je fáze vyšetřování dokončena.|||
+EventEnterHoldT17.button1,Úspěch
+EventEnterHoldT17.button2,Neúspěch
+EventFallIntoHoldFailT17.text,"Daří se vám udržet hadici, aby se nezadrhla, ale noha se vám zasekla o ostrou hranu na schodech.  Utrpíte 1 zranění.\n\nSvětlem kroužíte kolem nákladového prostoru. Truhel tu je celá řada. Chvíli potrvá, než si je všechny prohlédnete."
+EventFallIntoHoldFailT17.button1,{Action} Prohledejte truhly
+EventFallIntoHoldPassT17.text,"Dokážete udržet hadici, aby se nezasekla, a zároveň se při pádu vyhnout ostrým okrajům rozbitých schodů.\n\n\nSvětlem kroužíte kolem nákladového prostoru. Truhel tu je celá řada. Chvíli potrvá, než si je všechny prohlédnete."
+EventFallIntoHoldPassT17.button1,{action} Prohledejte truhly
+EventSearchChestsT17.text,"Pohybujete se od truhly k truhle. Jsou zamčené a nelze je otevřít.\n\nZrovna když to vzdáš, najdeš odemčenou krabici z černé litiny. Uvnitř najdete malou dřevěnou krabičku pokrytou podivnými runami.\n\nObdržíš běžný předmět {c:QItemGateBoxT17}.\n\nDvakrát zatáhnete za hadici, chcete být vytažen z vody ven."
+EventSearchChestsT17.button1,Pokračovat
+TokenWinchT5.text,Ručně ovládaný naviják
+TokenWinchT5.button1,{action}Vytáhnout ho ven!
+EventHoistAwayT5.text,Vynasnažíte se otočit klikou na navijáku, abyste vytáhli potápěče.  Nepamatuješ si, že by byl cestou dolů tak těžký.  Test {strength}(2).  Pokud je k dispozici další vyšetřovatel, který vám pomůže, automaticky uspějete
+EventHoistAwayT5.button1,Úspěch
+EventHoistAwayT5.button2,Neúspěch
+EventHoistAwayFailT5.text,Navijákem nemůžete otočit. Možná je zaseknutý. Budeš se muset víc snažit.
+EventHoistAwayFailT5.button1,Pokračovat
+EventHoistAwayPassT5.text,Pomalu začnete potápěče vytahovat zpět na hladinu.
+EventHoistAwayPassT5.button1,Pokračovat
+EventGoingUpT5.text,"(Pod hladinou)\n\nCítíte, jak se kabel napíná. Pak začnete cítit, že vás táhne nahoru. Při pohybu skrz poklop pečlivě chráníte vzduchovou hadici před poškozením.\n\nOdstraňte {c:TileWreckT17} včetně všech žetonů.  Umístěte svého vyšetřovatele na stůl vedle lodi."
+EventGoingUpT5.button1,Pokračovat
+EventContinueUpT5.text,"(Pod hladinou)\n\nJste opět obklopeni inkoustovou černotou. Nemůžete říci, zda se již pohybujete nahoru či nikoliv.\n\nVezměte si 1 kartu strachu, (lze předejít úspěšným hodem {will}-1)\n\nZdá se to jako věčnost, ale konečně se dostanete nad hladinu. Kapitán Jeremiáš vám pomůže zpátky na palubu.\n\nUmístěte svého vyšetřovatele na záď lodi."
+EventContinueUpT5.button1,Pokračovat
+EventBackOnBoardT5.text,|||Všichni se shromáždí, aby prozkoumali železnou truhlu a krabici uvnitř.\n\n"Nikdy jsem nic podobného neviděl," říká Jeremiáš.\n\nPodíváte se blíže na skříňku. Když stisknete západku, jedna ze stran se otevře. Uvnitř najdete zapečetěnou tubu obsahující svitek.  Obdržíte kouzlo {c:QItemPlumbTheVoidT5}.\n\nJeremiáš vypne vzduchový kompresor a pomůže vám z potápěčského obleku. Všichni se připravujete na zpáteční cestu.|||
+EventBackOnBoardT5.button1,Pokračovat
+EventTimeToGoT5.text,|||Uvědomíte si zvláštní bublající zvuk přicházející z pravoboku lodi. Všichni se přesunou k okrajům, aby zírali na obrovskou kaskádu bublin, která pění vodu po celém boku Staré Dámy.\n\nPak uvidíte něco dlouhého a černého pod vodou, vynořujícího se na hladinu...\n\nVykřiknete údivem, když se kovová ponorka, pětkrát nebo šestkrát delší než Stará Dáma, vynoří na povrch jen pár stop od pravoboku.\n\nNež stačíte zareagovat, otevře se poklop na věži v přední části ponorky a objeví se tři muži v černých uniformách. Beze slova se rychle přesunou, aby nainstalovali kulomet na otočný držák a namířili zbraň vaším směrem.\n\nNyní se objeví starší muž v podobné uniformě.\n\n"No, co to tu máme?", křičí, "Vypadá to, že nám někdo udělal laskavost a našel poklad, chlapci!"\n\nKapitán Jeremiáš vytáhne nůž a mávne jím směrem k nim. "Držte se zpátky, vy darebáci. Vím, jak to použít!"\n\nVůdce uniformovaných mužů se směje. "Chlapci, vysvětlete mu jak se co patří!". Jeden z mužů třímající kulomet ukončí Jeremiášovu výhružku. Jeremiáš se zhroutí na palubu, je mrtvý jako kámen.\n\n"Někdo jiný?" ptá se nepřátelský kapitán. Zvednete ruce nad hlavu.|||
+EventTimeToGoT5.button1,Pokračovat
+EventCapturedT5.text,|||"No prosím, teď to dává nějaký smysl," vykřine nepřátelský kapitán, "Chlapci, připojte tu kocábku!"\n\nObjeví se dva další muži, nesou háky na čluny, rychle přitáhnou ponorku ke Staré Dámě a připnou se k nějakým skobkám.\n\n"Nuže,nyní Vám povím co se stane," ušklíbne se záhadná postava, "moji chlapci přijdou na palubu, vezmou poklad a vás na palubu našeho plavidla pod ochranou. Vysadíme vás na břeh poblíž KingsPort. A nemějte žádné nápady, nebo místo toho skončíte na dně tohohle moře!"\n\nZdá se, že nemáte moc na výběr.\n\nNěkolik ozbrojených mužů nastoupí na Starou Dámu, sváže vám ruce za zády, zaváže vám oči a zavede vás na palubu ponorky.\n\nVyšetřovatelé odhodí veškerý svůj majetek kromě kouzel a stop.\n\nJste svedeni po žebříku a skrz bludiště místností a chodeb nakonec odhozeni na podlahu. Několik milostných klepnutí nějakou formou těžkého nástroje a všichni se ocitnete v bezvědomí.\n\nOdstraňte ze stolu všechny dlaždice a žetony, stejně jako všechny odhozené předměty.|||
+EventCapturedT5.button1,Porkačovat
+EventWakingUpT11.text,"Probudíte se s třesoucí se bolestí hlavy. Jste celí promáčení. V blízkosti se ozývá zvláštní syčení.\n\nPohybem zády k sobě jste schopni rozvázat lana, která vám svazují ruce. Strhnete si šátky z očí.\n\nOcitáte se v nějakém nákladovém prostoru.  Umístěte {c:TileStorageHoldT11} a vyšetřovatele dle instrukcí "
+EventWakingUpT11.button1,Pokračovat
+EventLookAroundT11.text,"Zakřivené kovové stěny místnosti dávají jasně najevo, že jste uvnitř ponorky. Ale je tu problém. Na podlaze je několik centimetrů vody. Vypadá to, že někde dochází k průsaku.\n\nProstor utěsňují dvoje těžké tlakové dveře. Umístěte žetony Prozkoumat, jak je uvedeno.\n\nV místnosti je mnoho krabic, beden a sudů. Umístěte žetony Prohledat, jak je uvedeno."
+EventLookAroundT11.button1,Pokračovat
+TokenSearchAftT11.text,Tyto krabice můžete prohledat.  Otestujte {observation}(1).
+TokenSearchAftT11.button1,Úspěch
+TokenSearchAftT11.button2,Neúspěch
+EventSearchAftFailT11.text,Nic jsi nenašel
+EventSearchAftFailT11.button1,Pokračovat
+EventSearchAftPassT11.text,"Našel jsi {c:QItem2x4T11}.\n\nOdstraň tento žeton Prohledat"
+EventSearchAftPassT11.button1,Pokračovat
+EventSearchBoxFwdT11.text,"Krabice obsahuje předměty, které Vám byly odebrány na palubě Staré dámy, všechny kromě tajuplné krabice. Získejte tyto předměty zpátky.\n\nOdtraňte tento žeton Prohledat"
+TokenSearchFwdT11.button1,{action} Otevřít bednu
+EventSearchBoxFwdT11.button1,Pokračovat
+TokenSearchFwdT11.text,Na podlaze najdete skříňku, která sem podle všeho nedávno spadla.
+TokenExploreEngineRoomT11.text,Dveře tohoto oddílu jsou zavřené, ale zarážky nejsou zaskočené. Do nákladového prostoru ze spodní části dveří kape voda.
+TokenExploreEngineRoomT11.button1,{action} Otevřít dveře
+EventExploreEngineRoomT11.text,"Otočíte klikou ve středu poklopu a otevřete je.\n\nZačne se valit voda\n\nVypadá to, že hladina vody v této místnosti byla o něco vyšší než v nákladovém prostoru. Hladina vody v obou místnostech je nyní asi půl metru.\n\nDveře se otevřou a odhalí něco, co vypadá jako strojovna. Místnost je plná měřidel a těžké techniky.\n\nUmístěte {c:TileEngineT10} dle instrukcí.\n\nU dveří je sud s uhlím. Umístěte žeton Prohledat, jak je uvedeno."
+EventExploreEngineRoomT11.button1,Pokračovat
+TokenSearchEngineRoomT10.text,Našli jste {c:QItemCoalShovelT10}.  Odtraňte tento žeton.
+TokenSearchEngineRoomT10.button1,Pokračovat
+EventEngineRoomDescContdT10.text,"Ve strojovně je ticho, až na syčení vody tekoucí do místnosti odněkud, odkud netušíte. Zdá se, že motory neběží.\n\nZdá se, že několik měřidel je v červených číslech. Umístěte žeton Prohledat, jak je uvedeno.\n\nPoblíž dveří je podivná pulzující trhlina. Umístěte žeton trhliny, jak je uvedeno.  Obdržíte 2 žetony stop {clue}.\n\nZdá se, že ze středu místnosti vede do trhliny krvavá stopa."
+EventEngineRoomDescContdT10.button1,Pokračovat
+TokenEngineGaugesT10.text,Vidíte různá měřidla a budíky. Pochopit jejich význam může vyžadovat určité úsilí.
+TokenEngineGaugesT10.button1,{action} Analyzujte měřidla
+EventExamineGaugesT10.text,Díváš se na měřidla.  Otestuj {lore} a zaznamenej svůh úspěch.
+EventExamineGaugesT10.button1,Pokračovat
+EventExamineGaugesT10.button2,Neúspěch
+EventExamineGaugesFailT10.text,Potřebujete trochu více času, abyste zjistili, co měřidla znamenají.
+EventExamineGaugesFailT10.button1,Pokračovat
+EventExamineEngineGaugesPassT10.text,"Ukazatele ukazují, že došlo k elektrické závadě a že motory byly ručně vypnuty. Nouzové napájení je zapnuto. Čerpadla jsou zapnutá, ale nedostává se jim žádné energie.\n\nOdtraňte tento žeton Prohledat a nahraďte ho žetonem Interakce."
+EventExamineEngineGaugesPassT10.button1,Pokračovat
+TokenRepairBilgePumpsT10.text,Můžete se pokusit opravit čerpadla pomocí vašeho {lore}.
+TokenRepairBilgePumpsT10.button1,{action} Opravit čerpadla
+SpawnSpawnShamblerT10.button1,Pokračovat
+PuzzleRepairBilgeCircutT10.button1,Vyzkoušet
+EventWaterRisingT10.text,"Hladina vody stoupá. Umístěte žetony vody, jak je uvedeno.\n\nVezměte v potaz pravidla pro vodu z rozšíření Děsivé výpravy:\n\nVyšetřovatelé nebo monstra, kteří se během akce pohybu přesunou na pole s vodou, ztratí veškerý zbývající pohyb (tj. nemohou se přesunout do dalších prostor).\n\nVodní, létající a nehmotná monstra neztrácejí svůj zbývající pohyb.\n\nKdyž je voda umístěna do prostoru obsahujícího oheň, zlikvidujte oheň z tohoto prostoru.\n\nOheň a voda nelze umístit do prostoru již obsahujícího vodu."
+SpawnSpawnShamblerT10.text,"Trhlina se náhle rozzáří a skrz ni do místnosti vstoupí příšerné stvoření! Umístěte Lovce z dimenze, jak je uvedeno.\n\nVšimněte si, že nehmotná monstra, jako jsou Lovec z Dimenze, se mohou pohybovat přes neprůchodné hranice a zdi a voda na ně nemá vliv."
+EventWaterRisingT10.button1,Pokračovat
+EventBilgePumpsFixedT10.button1,Pokračovat
+EventBilgePumpsFixedT10.text,"Opravili jste nefunkční obvod. Čerpadlo se probouzí k životu!\n\nZdá se, že hladina vody již nestoupá.\n\nOdstraňte tento žeton Interakce."
+TokenExploreSickBayT11.text,Tyto tlakové dveře jsou zablokované.  Otestujte {strength} a zaznamenejte svůj úspěch.  Pokud máte běžný předmět PRKNO, můžete ho použít jako beranidlo - hoďte jednou kostkou navíc.
+TokenExploreSickBayT11.button1,Porkačovat
+TokenExploreSickBayT11.button2,Neúspěch
+EventExploreSickBayFailT11.text,Dveře jsou stále zaseknuté.
+EventExploreSickBayFailT11.button1,Pokračovat
+EventExploreSickBayPassT11.text,"Násilím otevřete dveře. Dveře jsou příliš zdeformované na to, aby je bylo možné znovu zavřít.  Odstraňte tento žeton Prozkoumat\n\nDalší místnost vypadá jako ošetřovna. Umístěte {c:TileSickBayT12}.\n\nUmístěte žeton dle instrukcí\n\nNa nedalekých stolech a poličkách jsou nějaké lékařské potřeby.  Umístěte žeton prohledat.\n\nDveře do další místnosti jsou zavřené.  Umístěte žeton Prozkoumat.  Jedná se o normální, nevodotěsné dveře.\n\nMůžete udělat jeden krok do této místnosti."
+EventExploreSickBayPassT11.button1,Pokračovat
+EventEnterSickBayWithoutPumpsT12.text,Voda se valí na ošetřovnu z nákladového prostoru. Umístěte žetony vody, jak je uvedeno.
+EventEnterSickBayWithoutPumpsT12.button1,Pokračovat
+TokenExploreGalleyT12.text,Tyto dveře jsou zavřené
+TokenExploreGalleyT12.button1,{action} Otevřít dveře
+EventExploreGalleyT12.text,"Otevřete dveře, které vedou k něčemu, co se zdá být palubní kuchyní. Umístěte {c:TileGalleyT14}. Odstraňte tento žeton Prozkoumat.\n\nUmístěte žeton Zdi s vitrínou na protější stěnu. Ve vitríně je několik zajímavých věcí. Umístěte žeton Prohledat, jak je uvedeno.\n\nDveře nalevo vedou do další místnosti. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nDveře do kuchyně jsou zavřené. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nNa podlaze leží zakrvácená mrtvola námořníka. Umístěte žlutý žeton osoby, jak je uvedeno.\n\nNa stěně je připevněna harpuna. Umístěte žeton interakce, jak je uvedeno.\n\nMůžete vstoupit do palubní kuchyně."
+EventExploreGalleyT12.button1,Pokračovat
+TokenExploreKitchenT14.button1,{action} Otevřít kuchyňské dveře
+EventExploreKitchenT14.text,"Otevřeš dveře do kuchyně. Odeberte tento žeton Prozkoumat.\n\nMůžete prohledávat zásuvky. Umístěte žetony Prohledat, jak je uvedeno.\n\nJe tady trhlina. Umístěte žeton Trhliny, jak je uvedeno.\n\nMůžete se přesunout do kuchyně."
+TokenExploreKitchenT14.text,Tyto dveře vedou do kuchyně.
+EventExploreKitchenT14.button1,Pokračovat
+TokenSearchDrawersT14.text,Můžete prohledávat zásuvky.
+TokenSearchDrawersT14.button1,{action} Prohledat
+TokenYellowSailorT14.text,Tělo tohoto námořníka je pokryto stopami po drápech. Prohledáváte tělo. {observation}(2).
+TokenYellowSailorT14.button1,Úspěch
+TokenYellowSailorT14.button2,Neúspěch
+EventWaterEntersGalleyFromSickBayT14.button1,Pokračovat
+TokenSearchCabinetT14.button1,{action} Prohledat
+EventSearchSailorFailT14.text,Nic jste nenašli
+EventSearchSailorFailT14.button1,Pokračovat
+EventSearchSailorPassT14.text,"Rychle prohrabete všechny kapsy mrtvoly\n\nVezmete si 1 kartu strachu(lze předejít úspěšným hodem {will}).\n\nNalezli jste pistoli.  Obdržíte běžný předmět {c:QItem41DerringerT14}.\n\nOdstraňte tento žeton osoby."
+EventSearchSailorPassT14.button1,Pokračovat
+EventWaterEntersGalleyFromSickBayT14.text,Voda se valí z Ošetřovny do Kuchyně. Umístěte žeton vody, jak je uvedeno.
+EventSearchDrawersT14.button1,Pokračovat
+EventSearchCabinetT14.button1,Pokračovat
+TokenSearchCabinetT14.text,Můžete prohledat tuto skříň.
+EventSearchCabinetT14.text,Vytáhnete {c:QItemExtinguisherT14}.  Odsraňte tento žeton.
+SpawnDimensionalShamblerT14.text,Do kuchyně trhlinou vstoupí monstrum. Umístěte Lovce z dimenze, jak je uvedeno.
+EventSearchDrawersT14.text,Prohlédnete si příbory a vezmete si {c:QItemMeatCleaverT14}.  Odstraňte tento žeton Prohledat.
+SpawnDimensionalShamblerT14.button1,Pokračovat
+TokenExploreCrewQtrsT14.text,Tyto dveře jsou zavřené.
+TokenExploreCrewQtrsT14.button1,{action} Otevřít dveře
+EventExploreCrewQtrsT14.text,"Dveře se otevřou a odhalí, co je očividně ubykace pro posádku.  Umístěte {c:TileCrewQuartersT13}.\n\n  Odstraňte tento žeton prozkoumat\n\nMístnost je poseta těly v různých stavech zohavení. Umístěte fialový, zelený a červený žeton osob, jak je uvedeno.\n\nObdržíte 2 karty strachu (lze předejít úspěšným hodem {will})."
+EventExploreCrewQtrsT14.button1,Pokračovat
+EventCrewDescContdT13.text,"Nalevo od vás je hromada námořního vybavení. Umístěte žeton Prohledat, jak je uvedeno.\n\nNapravo od vás je skříň. Umístěte žeton Prohledat, jak je uvedeno.\n\nDveře do další místnosti jsou zavřené. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nNyní můžete vstoupit do ubykace pro posádku."
+EventCrewDescContdT13.button1,Pokračovat
+TokenSearchCabinetT13.text,Můžete prohledat tuto skříň
+TokenSearchCabinetT13.button1,{action} Prohledat skříň
+EventSearchCabinetT13.text,Najdete zdroj světla. Získejte běžný předmět {c:QItemLanternT13}.  Odtraňte tento žeton.
+EventSearchCabinetT13.button1,Pokračovat
+TokenNavalEquipT13.text,Můžete prohledávat hromadu námořního vybavení.
+TokenNavalEquipT13.button1,{action} Prohledat
+EventSearchNavalEquipT13.text,"Našli jste {c:QItemNetT13}.  Odstraňte tento žeton Prozkoumat.\n\nMísto své tištěné akce může být síť použita k omezení tvora tím, že uspějete v testu {agility}(2) místo útočné akce.  Pokud uspějete, zahoďte síť. Ignorujte všechny akce, které bytost v tomto kole provede, a neprovádějte proti ní kontrolu hrůzy. Také není potřeba se tvorovi vyhýbat během tahu, kdy se zamotá do sítě."
+EventSearchNavalEquipT13.button1,Pokračovat
+TokenPurplePersonT13.text,Soudě podle mastnoty a oleje na uniformě tohoto muže, musí být součástí posádky strojovny.
+TokenPurplePersonT13.button1,{action} Prohledat tělo
+EventSearchPurplePersonT13.text,Prohledáváte strojníka.  Naleznete běžný předmět {c:QItemWrenchT13}.  Odstraňte fialový žeton osoby.
+EventSearchPurplePersonT13.button1,Pokračovat
+TokenRedPersonT13.text,Tomuto muži byla rozdrcena hlava. Pod tělem je uvězněna kniha.
+TokenRedPersonT13.button1,{action} Popadni knihu
+EventInspectDiversJournal.text,|||Deník popisuje pokusy posádky ponorky najít ztracenou loď Mystral a její poklad.\n\nKromě bohatství ve zlatě měl poklad obsahovat „Schránku tajemství“. Není jasné, zda věděli o účelu nebo použití této schránky.\n\nObdržíte 1 stopu {clue}.|||
+EventInspectDiversJournal.button1,Pokračovat
+EventSearchRedPersonT13.text,Obdržíte {c:QItemDiversJournalT13}.  Tento předmět lze prozkoumat v inventáři pomocí nabídky. Odstraňte žeton červené osoby.
+EventSearchRedPersonT13.button1,Pokračovat
+TokenExploreChartT13.button1,{action} Otevřít dveře
+EventCrewQtrsFloodsT13.text,Z kuchyně se valí voda do této ubykace posádky. Umístěte žeton vody dle instrukcí
+TokenExploreChartT13.text,Tyto dveře jsou zavřené.
+EventCrewQtrsFloodsT13.button1,Pokračovat
+EventExploreChartRoomT13.text,"Když otevřete dveře, nouzová světla zablikají a pak zhasnou. Umístěte žetony temnoty do všech částí ponorky.\n\nČerpadla přestala pracovat.\n\nUmístěte žetony vody do všech částí ponorky."
+EventExploreChartRoomT13.button1,Pokračovat
+EventExploreChart2T13.text,"Tyto dveře vedou do místnosti obsahující malou knihovnu a také velký stůl, na kterém je rozložená námořní mapa.  Umístěte {c:TileChartRoomT15}.\n\nOdtraňte tento žeton Prozkoumat.\n\nNa policích po vaší levici může být něco užitečného. Umístěte žeton Prohledat, jak je uvedeno.\n\nNa tomhle stole může být něco opravdu důležitého. Umístěte žeton Prohledat."
+EventExploreChart2T13.button1,Pokračovat
+TokenSearchChartTableT15.text,Mapa znázorňuje záliv KingsPort. Můžete se podívat blíže.
+TokenSearchChartTableT15.button1,{action} Prozkoumat
+EventSearchChartT13.text,"Mapa je docela stará. Papír je suchý a křehký.  Text je v jazyce, který jste ještě neviděli.\n\nRůzné čáry na mapě jsou označeny červeně. Zdá se, že se sbíhají v bodě blízko místa, kde odhadujete, že je to místo vraku Mystral.\n\nObdržíte {c:QItemMapofLeyLinesT15} a 1 žeton stop {clue}.  Odstraňte tento žeton Prohledat."
+EventSearchChartT13.button1,Pokračovat
+TokenRemoveHarpoonT14.text,Toto je nedůvěryhodně vypadající harpuna se složitými řezbami na rukojeti. Je přišroubována ke zdi. Hráč s předmětem <b>Hasák</b> může sundat harpunu.
+EventRemoveHarpoonT15.text,Vyjmete šrouby zajišťující harpunu. Získáte běžný předmět {c:QItemHarpoonT15}.  Odstraňte tento žeton interakce.
+EventRemoveHarpoonT15.button1,Pokračovat
+TokenSearchBookshelvesT15.text,Na policích je mnoho knih, můžete v nich prohledávat, zda tam není něco zajímavého.
+TokenSearchBookshelvesT15.button1,{action} Prohledat knihy
+EventSearchBooksT15.text,Otestujte {lore}(2)
+EventSearchBooksT15.button1,Úspěch
+EventSearchBooksT15.button2,Neúspěch
+EventSearchBooksFailT15.text,Nedaří se vám najít nic zajímavého. Možná, když budete hledat dál?
+EventSearchBooksFailT15.button1,Pokračovat
+EventSearchBooksPassT15.text,"Najdete velmi starou knihu, která pojednává o uspořádání hvězd na nebesích.  Obdržíte {c:QItemAstronomyBookT15} a 1 žeton stopy {clue}.\n  \n Odstraňte tento žeton Prohledat."
+EventSearchBooksPassT15.button1,Pokračovat
+EventExploreChart3T13.text,"V této místnosti je trhlina. Umístěte žeton trhliny, jak je uvedeno.\n\nTo, co zbylo z "Tajemné skříňky", leží na podlaze vedle otevřené trhliny. Vypadá, že to explodovalo. Z jednoho z úlomků stoupá oblak kouře. Nedaleko leží spálené zbytky těla.\n\nVodotěsné dveře do další místnosti jsou zavřené. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nVoda se valí do místnosti. Umístěte žetony vody, jak je uvedeno.\n\nMístnost je ve tmě. Umístěte žetony temnoty, jak je uvedeno.\n\nDo této místnosti se můžete přesunout o jedno pole."
+EventExploreChart3T13.button1,Pokračovat
+TokenExploreBridgeT15.button1,{action} Otevřít dveře
+EventExplainRiftsT10.text,"Berte v úvahu pravidla z rozšíření <b>"Děsivé Výpravy"</b>\n\nPoté, co vyšetřovatel v prostoru obsahujícím trhlinu provede jinou akci než akci pohybu, stanou se Ztracenými v čase a prostoru. Totéž se stane, pokud provedou akci v prostoru s trhlinou.\n\nJako akci se vyšetřovatel může pokusit uzavřít trhlinu testováním {lore}.  Za každý úspěch mohou odhodit trhlinu ze svého pole nebo pole, do kterého se přesunou později během kola.\n\nTrhliny odhozené tímto způsobem nezpůsobí, že se vyšetřovatel stane Ztraceným v čase a prostoru.\n\nTrhlinu nelze umístit do prostoru trhlinu již obsahující.\n\nMůžete se přesunout o jedno pole do místnosti."
+TokenExploreBridgeT15.text,Tyto tlakové dveře jsou zavřené.
+EventExplainRiftsT10.button1,Pokračovat
+TokenGreenPersonT13.text,Tomuto muži byla utržena ruka. Krev je všude.
+TokenGreenPersonT13.button1,{action} Prohledat tělo
+EventSearchGreenPersonT13.text,Odvalíte tělo z cesty. Pod ním najdete záchranný kruh. Vezměte si tento předmět. Odstraňte zelený žeton osoby.
+EventSearchGreenPersonT13.button1,Pokračovat
+EventPlaceBridgeT15.text,"Dveře se otevírají, spatříte schodiště vedoucího nahoru. Umístěte {c:TileBridgeT16}.\n\nNahraďte tento žeton Prozkoumat žetonem Interakce\n\nDveře na můstek jsou zavřené. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nNachází se zde trhlina. Umístěte žeton trhliny, jak je uvedeno.\n\nVoda se valí dovnitř. Umístěte žeton vody, jak je uvedeno.\n\nMístnost je ve tmě. Umístěte žeton temnoty, jak je uvedeno.\n\nMůžete se přesunout na schodiště.\n"
+EventPlaceBridgeT15.button1,Pokračovat
+TokenExploreBridgeT16.button1,{action} Otevřete poklop
+EventWaterRisesT16.button1,Pokračovat
+TokenExploreBridgeT16.text,Tento poklop vede na můstek
+EventWaterRisesT16.text,"Hladina vody stoupá.\n\nOdstraňte {c:TileEngineT10} a {c:TileStorageHoldT11} včetně všech žetonů.  Všichni vyšetřovatelé na těchto dlaždicích jsou eliminováni.  Všechna monstra na těchto dlaždicích se přesunou do {c:TileSickBayT12}."
+SpawnHuntingHorrorT16.button1,Pokračovat
+EventExploreBridgeT16.text,"Tento poklop vede na můstek. Stále zde funguje nouzové osvětlení.\n\nOdstraňte tento žeton Prozkoumat.\n\nSkrze okna můžete venku vidět skaliska a ryby. Zdá se, že ponorka spočívá na mořském dně.\n\nNa palubní desce se nacházají nějaké ovládací prvky. Umístěte žeton Prohledat, jak je uvedeno.\n\nKe kruhovému poklopu nad Vaší hlavou vede žebřík. Umístěte žeton Interakce, jak je uvedeno.\n\nMůžete se přesunout o jedno pole do této místnosti.\n\nHladina vody stoupá.  Odstraňte {c:TileSickBayT12} včetně všech žetonů.  Všichni vyšetřovatelé na této dlaždici jsou vyřazeni ze hry. Všechna monstra na této dlaždici se přesunou do {c:TileGalleyT14}.\n\nDo této úrovně hladina vody zatím nestoupla."
+SpawnHuntingHorrorT16.text,Do místnosti skrz trhlinu proletí hrůzostrašné stvoření. Umístěte Noční běs, jak je uvedeno.
+EventExploreBridgeT16.button1,Pokračovat
+TokenBridgeControlsT16.button1,{action} Prozkoumejte ovládání
+EventExamineBridgeControlsT16.text,"Prozkoumáte ovládací prvky. Kromě ovládání motoru a zátěže se zdá, že existuje způsob, jak odpojit můstek od zbytku ponorky.\n\nNahraďte tento žeton Prohledat žetonem Interakce."
+TokenBridgeControlsT16.text,Je zde několik složitých ovládacích prvků. Můžete je prozkoumat a pokusit se zjistit, co dělají.
+EventExamineBridgeControlsT16.button1,Pokračovat
+TokenActivateEscapePodT16.text,Pokud jsou všichni vyšetřovatelé v tomto prostoru, můžete se pokusit vyluštit sekvenci a aktivovat ovládání pomocí {observation}.
+TokenActivateEscapePodT16.button1,{action} Pokuste se aktivovat ovládací prvky
+EventWaterEntersKitchenT14.button1,Pokračovat
+EventEscapeT16.text,Dveře můstku se zavřou a svorky zapadnou.
+EventEscapeT16.button1,Pokračovat
+EventEscape2T16.text,Cítíte náhlé zakolísání a téměř ztrácíte půdu pod nohama, jak se svorky uvolní a můstek se začne vznášet nahoru, nejprve pomalu a pak rychleji a rychleji.
+EventEscape2T16.button1,Pokračovat
+TokenBridgeExitT16.text,Můžete vylézt po žebříku a otevřít kruhový poklop nad vámi.
+TokenBridgeExitT16.button1,{action} Otevřít poklop
+EventWaterEntersKitchenT14.text,Voda se valí do kuchyně. Umístěte žeton vody, jak je uvedeno.
+EventOpenBridgeExitT16.text,Poklop je pevně uzavřen.  Otestujte {strength}(2).
+EventOpenBridgeExitT16.button1,Úspěch
+EventOpenBridgeExitT16.button2,Neúspěch
+EventHatchFailT16.text,Nemůžeš to vzdát.
+EventHatchFailT16.button1,Pokračovat
+EventHatchPassT16.text,Nemůžete zvednout poklop. Nad vámi je příliš velký tlak vody. Odeberte tento žeton interakce.
+EventHatchPassT16.button1,Pokračovat
+SpawnFormlessSpawnT10.text,"V zadní části plavidla se ozve strašlivý hluk signalizující příchod strašlivého tvora z prázdnoty. Objeví se další trhlina a skrz ni se plazí nesmírné monstrum.  Umístěte monstrum Beztvarý splozenec dle instrukcí.\n\nPoznámka: Beztvarý zplozenec není vodní nebo nehmotné monstrum, takže se může pohybovat pouze o jedno pole v zatopených oblastech."
+SpawnFormlessSpawnT10.button1,Pokračovat
+TokenSearchSideTableT14.text,V této vitríně můžete prohledat nějaké čačky
+TokenSearchSideTableT14.button1,{action} Prohledat čačky
+TokenExploreRopeAndAnchorT3.text,|||Stará dřevěná cedule visící nad těmito dveřmi říká „Lano a kotva“. Uvnitř je slyšet šum povídajících si mužů.|||
+Spawn2ndDeepOneT5.text,Druhé stvoření přeleze přes okraj. Umístěte dalšího Deep One, jak je uvedeno.
+Spawn2ndDeepOneT5.button1,Pokračovat
+TokenEngineRoomRiftT10.text,Klikněte na Odstranit. Pokud hráči odstraní tuto trhlinu, odstraníte žeton trhliny.
+TokenEngineRoomRiftT10.button1,Odstranit
+EventRemoveRiftT10.text,Odstraňte tento žeton trhliny.
+EventRemoveRiftT10.button1,Pokračovat
+TokenRiftKitchenT14.text,Klikněte na Odstranit. Pokud hráči odstraní tuto trhlinu, odstraníte žeton trhliny.
+TokenRiftKitchenT14.button1,Odstranit
+EventRemoveRiftKitchenT14.text,Odstraňte tento žeton trhliny.
+EventRemoveRiftKitchenT14.button1,Pokračovat
+TokenRiftT15.text,Klikněte na Odstranit. Pokud hráči odstraní tuto trhlinu, odstraníte žeton trhliny.
+TokenRiftT15.button1,Odstranit
+TokenRiftT15.button2,Zrušit
+EventRemoveRiftT15.button1,Pokračovat
+TokenRiftT16.text,Klikněte na Odstranit. Pokud hráči odstraní tuto trhlinu, odstraníte žeton trhliny.
+EventRemoveRiftT15.text,Odstraňte tento žeton trhliny.
+TokenRiftT16.button1,Odstranit
+EventRemoveRiftT16.text,Odstraňte tento žeton trhliny.
+EventRemoveRiftT16.button1,Pokračovat
+EventFinishPierT1.text,"Molo pokračuje doleva a doprava. Umístěte žetony Zajímavosti, jak je uvedeno.\n\nNa severu je jakýsi malý stánek. Umístěte žeton Prozkoumat, jak je uvedeno.\n\nNedaleko se nacházejí nějaké bedny a sudy. Umístěte žeton Prohledat, jak je uvedeno.\n\nVedle mola pluje malá zakrytá veslice. Umístěte žeton Prohledat, jak je uvedeno."
+EventFinishPierT1.button1,Pokračovat
+EventFinishT8.text,"Kolem místnosti je několik drsně vyhlížejících postav, pravděpodobně místních rybářů. Místnost na okamžik ztichne, když na vás muži vzhlédnou, a po chvíli se zvuk konverzace obnoví, když muži odvrátí zrak a vrátí se ke svým rozhovorům.\n\nNa gauči sedí dvojice mužů. Umístěte šedý a fialový žeton osob, jak je uvedeno.\n\nZa barem je žena. Umístěte oranžový žeton osoby, jak je uvedeno.\n\nV křesle sedí muž a mluví s barmankou. Umístěte žeton žluté osoby, jak je uvedeno.\n\nMůžete se přesunout o jedno pole do místnosti."
+EventFinishT8.button1,Pokračovat
+EventExtractMonstersT16.text,"Když se únikový modul začne zvedat, objeví se v místnosti trhlina.\n\nVelká síla vás táhne k trhlině. Každý vyšetřovatel testuje {strength}(1) aby se něčeho zachytil a odolal té síle.  Všichni vyšetřovatelé, kteří neuspějí, jsou vtaženi do trhliny a stávají se Ztraceni v čase a prostoru.\n\nVšechny příšery v tomto prostoru jsou vtaženy do trhliny."
+EventExtractMonstersT16.button1,Pokračovat
+EventInvestigatorsReturnT16.text,"Trhlina se uzavírá.\n\nÚnikový modul se stále vynořuje víc a víc.\n\nKaždý vyšetřovatel, který je Ztracen v čase a prostoru, má jednu možnost pokusit se vrátit. Otočte jejich karty "Ztraceni v čase a prostoru" a postupujte podle jejích pokynů.\n\nVšichni vyšetřovatelé, kteří zůstanou Ztraceni v čase a prostoru, jsou vyřazeni ze hry."
+EventInvestigatorsReturnT16.button1,Nejméně jeden vyšetřovatel přežil
+EventInvestigatorsReturnT16.button2,Všichni vyšetřovatelé vyřazeni
+PuzzleActivateEscapePodT16.button1,Aktivovat
+EventShamblerRipsDoorT10.text,"Dimensional Shambler se zmocní vodotěsných dveří a vytrhne je z pantů, poté je odhodí na nejbližšího vyšetřovatele.  Nejbližší vyšetřovatel v dosahu utrpí jedno Zranění (lze předejít úspěšným hodem {agility}-1).\n\n Odstraňte žeton Průzkumu vedoucí do strojovny."
+EventShamblerRipsDoorT10.button1,Pokračovat
+TokenBridgePressureDoorOpenedT16.button1,{action} Zavřít dveře
+TokenBridgePressureDoorSecuredT16.text,Vodotěsné dveře jsou zavřené a zajištěné.
+EventCloseBridgeDoorT16.text,"Zavíráte vodotěsné dveře, roztočíte velké kolo, a tím dveře pevně zamknete.\n\nPokud se Beztvarý zplozenec pokusí vstoupit na můstek, považujte tyto dveře za barikádu.  Hází kostkou rovnající se jeho síle (4) a pokud dosáhne dvou úspěchů, rozrazí dveře a vstoupí na schodiště, jinak se Beztvarý zplozenec vůbec nepohne.\n\nOstatní nestvůry nejsou dostatečně silné, aby prorazily vodotěsné dveře."
+EventCloseBridgeDoorT16.button1,Pokračovat
+TokenBridgePressureDoorSecuredT16.button1,{action} Otevřít dveře
+EventOpenPressureDoorBridgeT16.text,Otočením kola odemknete západky a otevřete vodotěsné dveře.
+EventOpenPressureDoorBridgeT16.button1,Pokračovat
+TokenBridgePressureDoorOpenedT16.text,Vodotěsné dveře můžete zavřít.
+TokenRemoveHarpoonT14.button1,{action} Sundejte harpunu (vyžaduje <b>Montážní klíč</b>)
+EventSoakedT8.text,|||Všimne si jak jsi promočený.\n\n"Skvělá noc na koupání, co?"\n\nŠťouchá do kamaráda a směje se.|||
+EventSoakedT8.button1,Pokračovat
+EventReadPaperT9.button1,Úspěch
+EventReadPaperT9.button2,Neúspěch
+EventAskJerimiahWhatHesDoingT5.text,|||Starý muž na vás zamžourá a pak zakřičí: "Co asi tak dělám vy suchozemci! Teď mě přestaňte otravovat a vypadněte z lodi!"|||
+TokenJeremiahWheelhouseT5.text,Jeremiáš hledí do dáli na moře.
+TokenJeremiahWheelhouseT5.button1,Pokračovat
+EventSearchTrinketsT14.text,Ve vitríně je sbírka drobností, včetně několika dublonů, starožitného štětce a dřevěného tubusu. Uvnitř tubusu najdete svitek.  Naučíte se kouzlo {c:QItemStormSpellT14}.  Odstraňte tento žeton prohledat.
+EventSearchTrinketsT14.button1,Pokračovat
